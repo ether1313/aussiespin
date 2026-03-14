@@ -177,12 +177,12 @@ export default function Header() {
 
         {/* Bottom links */}
         <div className="absolute bottom-0 left-0 right-0 px-5 py-4 border-t border-gray-200 bg-gray-50">
-          <div className="flex flex-wrap items-center gap-3 text-xs text-gray-500">
+          <div className="flex items-center">
             <a
               href={registerLinks[0]}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-3 py-1.5 rounded-full bg-teal-600 hover:bg-teal-700 text-white text-xs font-semibold transition-colors"
+              className="inline-flex w-full items-center justify-center px-5 py-3 rounded-full bg-teal-600 hover:bg-teal-700 text-white text-base font-bold transition-all duration-200 animate-pulse shadow-lg shadow-teal-200"
               onClick={(event) => {
                 event.preventDefault();
                 handleOpenRandomRegister();
@@ -190,8 +190,6 @@ export default function Header() {
             >
               ➜] Login
             </a>
-            <a href="/responsible-gambling" className="hover:text-teal-600">Responsible Gambling</a>
-            <a href="/about" className="hover:text-teal-600">About Us</a>
           </div>
         </div>
       </div>
