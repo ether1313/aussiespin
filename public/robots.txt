@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.aussiespin.net/sitemap.xml
+Sitemap: https://www.aussiespin.org/sitemap.xml
