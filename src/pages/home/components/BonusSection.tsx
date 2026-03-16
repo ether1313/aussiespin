@@ -3,7 +3,7 @@ import { useState } from 'react';
 const bonuses = [
   {
     id: 1,
-    casino: "ACE96 AU",
+    casino: "Ace96au",
     logo: "/casinos/ace96au.png",
     title: "Special Rebate Bonus AUD 50",
     description: "Limited to 1 claim per day. VIP rebate bonus AUD 50 with slot-game-only conditions and daily deposit requirement.",
@@ -30,7 +30,7 @@ const bonuses = [
   },
   {
     id: 4,
-    casino: "BigPay77",
+    casino: "Bigpay77",
     logo: "/casinos/bigpay77.png",
     title: "Daily Easy Step Free 100",
     description: "Daily free bonus flow for BigPay77 members. Follow customer-service steps and sharing requirements to qualify.",
@@ -39,7 +39,7 @@ const bonuses = [
   },
   {
     id: 5,
-    casino: "me99",
+    casino: "Me99",
     logo: "/casinos/me99.png",
     title: "Every Deposit Random Bonus",
     description: "Random slot bonus on every qualifying deposit. Includes low minimum entry and clear turnover/withdrawal rules.",
@@ -57,7 +57,7 @@ const bonuses = [
   },
   {
     id: 7,
-    casino: "GUCCI9",
+    casino: "Gucci9",
     logo: "/casinos/gucci9.png",
     title: "Slot Welcome Bonus 50%",
     description: "New member one-time slot welcome bonus with AUD 50 minimum deposit and structured rollover requirements.",
@@ -102,7 +102,7 @@ const bonuses = [
   },
   {
     id: 12,
-    casino: "BYBID9",
+    casino: "Bybid9",
     logo: "/casinos/bybid9.png",
     title: "Premium Jackpot 5999 AUD",
     description: "Grand jackpot promotion with direct-cash style bonus mechanics, deposit requirement, and slot-only restrictions.",

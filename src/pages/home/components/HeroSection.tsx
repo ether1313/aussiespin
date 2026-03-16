@@ -37,14 +37,13 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
           {/* Quick access cards — 2 cols on mobile, 3 on sm, 5 on md+ */}
           <div className="grid grid-cols-2 sm:grid-cols-3 md:flex md:flex-wrap gap-2 mb-5">
             {[
-              { href: '/free-pokies', icon: '/hero-icons/slot-machine.png', label: 'FREE POKIES', count: '1000+ games' },
-              { href: '/casinos', icon: '/hero-icons/casino.png', label: 'ONLINE CASINOS', count: '500+ brands' },
-              { href: '/bonuses', icon: '/hero-icons/bonus.png', label: 'BONUSES', count: '1200+ promos' },
-              { href: '/providers', icon: '/hero-icons/providers.png', label: 'PROVIDERS', count: '100+ brands' },
+              { icon: '/hero-icons/slot-machine.png', label: 'FREE POKIES', count: '1300+ games' },
+              { icon: '/hero-icons/casino.png', label: 'ONLINE CASINOS', count: '500+ brands' },
+              { icon: '/hero-icons/bonus.png', label: 'BONUSES', count: '1200+ promos' },
+              { icon: '/hero-icons/providers.png', label: 'PROVIDERS', count: '150+ brands' },
             ].map((card) => (
               <a
                 key={card.label}
-                href={card.href}
                 className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/10 rounded-lg px-3 py-2.5 transition-all hover:scale-105 cursor-pointer"
               >
                 <div className="w-7 h-7 flex items-center justify-center flex-shrink-0">

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const topCasinos = [
   {
-    name: "ACE96 AU",
+    name: "Ace96au",
     logo: "/casinos/ace96au.png",
     rating: 4.89,
     bonus: "150% up to A$1,500 + 180 FS",
@@ -30,7 +30,7 @@ const topCasinos = [
     tag: "Editor's Choice",
   },
   {
-    name: "BigPay77",
+    name: "Bigpay77",
     logo: "/casinos/bigpay77.png",
     rating: 4.90,
     bonus: "100% up to A$770 + 77 FS",
@@ -39,7 +39,7 @@ const topCasinos = [
     tag: "Most Popular",
   },
   {
-    name: "me99",
+    name: "Me99",
     logo: "/casinos/me99.png",
     rating: 4.88,
     bonus: "120% up to A$1,200 + 120 FS",
@@ -54,14 +54,16 @@ const topCasinos = [
     bonus: "100% up to A$600 + 60 FS",
     reviewLink: "/rolex9",
     playLink: "https://auspokies.net/affiliates/1722773",
+    tag: "High Roller Pick",
   },
   {
-    name: "GUCCI9",
+    name: "Gucci9",
     logo: "/casinos/gucci9.png",
     rating: 4.87,
     bonus: "100% up to A$900 + 90 FS",
     reviewLink: "/gucci9",
     playLink: "https://auspokies.net/affiliates/2148247",
+    tag: "High Rebates",
   },
   {
     name: "MrBean9",
@@ -70,6 +72,7 @@ const topCasinos = [
     bonus: "110% up to A$700 + 70 FS",
     reviewLink: "/mrbean9",
     playLink: "https://auspokies.net/affiliates/2392349",
+    tag: "Best for Pokies",
   },
   {
     name: "PKM9",
@@ -78,6 +81,7 @@ const topCasinos = [
     bonus: "130% up to A$1,300 + 130 FS",
     reviewLink: "/pkm9",
     playLink: "https://auspokies.net/affiliates/4499886",
+    tag: "Fastest Payouts",
   },
   {
     name: "Winnie777",
@@ -86,6 +90,7 @@ const topCasinos = [
     bonus: "140% up to A$1,777 + 177 FS",
     reviewLink: "/winnie777",
     playLink: "https://auspokies.net/affiliates/2148247",
+    tag: "Bonuses Packed",
   },
   {
     name: "Micky9",
@@ -94,14 +99,16 @@ const topCasinos = [
     bonus: "Up to A$888 + 88 FS",
     reviewLink: "/micky9",
     playLink: "https://auspokies.net/affiliates/4158946",
+    tag: "Mobile Friendly",
   },
   {
-    name: "BYBID9",
+    name: "Bybid9",
     logo: "/casinos/bybid9.png",
     rating: 4.96,
     bonus: "Up to A$999 + 99 FS",
     reviewLink: "/bybid9",
     playLink: "https://auspokies.net/affiliates/1722773",
+    tag: "Premium Jackpot",
   },
   {
     name: "Queen13",
@@ -110,96 +117,97 @@ const topCasinos = [
     bonus: "130% up to A$1,300 + 130 FS",
     reviewLink: "/queen13",
     playLink: "https://auspokies.net/affiliates/1722773",
+    tag: "Best for Pokies",
   },
 ];
 
 const latestBonuses = [
   {
-    casino: "ACE96 AU",
+    casino: "Ace96au Casino",
     logo: "/casinos/ace96au.png",
     title: "Special Rebate Bonus AUD 50",
     code: "ACE50",
     link: "https://auspokies.net/affiliates/4595713",
   },
   {
-    casino: "iPay9",
+    casino: "iPay9 Casino",
     logo: "/casinos/ipay9.png",
     title: "Welcome Bonus 50%",
     code: null,
     link: "https://auspokies.net/affiliates/5733817",
   },
   {
-    casino: "Kingbet9",
+    casino: "Kingbet9 Casino",
     logo: "/casinos/kingbet9.png",
     title: "Slot Daily Bonus 39%",
     code: null,
     link: "https://auspokies.net/affiliates/7006427",
   },
   {
-    casino: "BigPay77",
+    casino: "Bigpay77 Casino",
     logo: "/casinos/bigpay77.png",
     title: "Daily Easy Step Free 100",
     code: "BIG100",
     link: "https://auspokies.net/affiliates/4957624",
   },
   {
-    casino: "me99",
+    casino: "Me99 Casino",
     logo: "/casinos/me99.png",
     title: "Every Deposit Random Bonus",
     code: "ME-RANDOM",
     link: "https://auspokies.net/affiliates/4957624",
   },
   {
-    casino: "Rolex9",
+    casino: "Rolex9 Casino",
     logo: "/casinos/rolex9.png",
     title: "Free Credit AUD 99.99",
     code: null,
     link: "https://auspokies.net/affiliates/1722773",
   },
   {
-    casino: "GUCCI9",
+    casino: "Gucci9 Casino",
     logo: "/casinos/gucci9.png",
     title: "Slot Welcome Bonus 50%",
     code: null,
     link: "https://auspokies.net/affiliates/2148247",
   },
   {
-    casino: "MrBean9",
+    casino: "MrBean9 Casino",
     logo: "/casinos/mrbean9.png",
     title: "Daily Slot First Deposit 30%",
     code: null,
     link: "https://auspokies.net/affiliates/2392349",
   },
   {
-    casino: "PKM9",
+    casino: "PKM9 Casino",
     logo: "/casinos/pkm9.png",
     title: "Slot Unlimited Bonus 50%",
     code: null,
     link: "https://auspokies.net/affiliates/4499886",
   },
   {
-    casino: "Winnie777",
+    casino: "Winnie777 Casino",
     logo: "/casinos/winnie777.png",
     title: "Free Credit AUD 103.33",
     code: "WIN103",
     link: "https://auspokies.net/affiliates/2148247",
   },
   {
-    casino: "Micky9",
+    casino: "Micky9 Casino",
     logo: "/casinos/micky9.png",
     title: "Free Credit 103.33 AUD",
     code: null,
     link: "https://auspokies.net/affiliates/4158946",
   },
   {
-    casino: "BYBID9",
+    casino: "Bybid9 Casino",
     logo: "/casinos/bybid9.png",
     title: "Premium Jackpot 5999 AUD",
     code: null,
     link: "https://auspokies.net/affiliates/1722773",
   },
   {
-    casino: "Queen13",
+    casino: "Queen13 Casino",
     logo: "/casinos/queen13.png",
     title: "New Member Free AUD 113",
     code: "Q13FREE113",
@@ -306,7 +314,7 @@ export default function Sidebar() {
                 <div className="w-8 h-6 flex-shrink-0 flex items-center justify-center">
                   <img src={bonus.logo} alt={bonus.casino} className="max-w-full max-h-full object-contain" />
                 </div>
-                <span className="text-xs font-semibold text-gray-700 truncate">{bonus.casino}</span>
+                <span className="text-sm font-semibold text-gray-700 truncate">{bonus.casino}</span>
               </div>
               <div className="text-xs text-green-700 font-bold mb-1.5">{bonus.title}</div>
               {bonus.code ? (

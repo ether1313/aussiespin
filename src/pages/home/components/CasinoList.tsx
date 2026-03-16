@@ -45,7 +45,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
 
   const casinos: Casino[] = [
     {
-      id: 1, rank: 1, name: "ACE96AU",
+      id: 1, rank: 1, name: "Ace96au",
       logo: "/casinos/ace96au.png",
       rating: 4.85, ratingCount: 512,
       bonus: "100% VVIP Bonus", bonusLabel: "VIP Bonus",
