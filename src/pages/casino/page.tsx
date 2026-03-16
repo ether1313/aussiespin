@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
 interface BonusCard {
@@ -1244,6 +1244,7 @@ function OverviewSection({ casino }: { casino: CasinoDetail }) {
 
 export default function CasinoReviewPage() {
   const { slug } = useParams<{ slug: string }>();
+  const navigate = useNavigate();
 
   const casinoDetails: Record<string, CasinoDetail> = {};
 
@@ -1722,6 +1723,14 @@ export default function CasinoReviewPage() {
     ? (casinoDetails[slug] ?? (comingSoonCasinoMap[slug] ? buildFullTemplateCasino(slug, comingSoonCasinoMap[slug]) : null))
     : null;
 
+  const handleBackToCasinos = () => {
+    if (window.history.length > 1) {
+      navigate(-1);
+      return;
+    }
+    navigate('/');
+  };
+
   if (!casino) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -1750,13 +1759,14 @@ export default function CasinoReviewPage() {
       <div className="bg-gradient-to-r from-teal-700 to-teal-600 text-white py-6 md:py-12">
         <div className="container mx-auto px-4">
           <div className="mb-4 md:mb-5">
-            <Link
-              to="/"
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 hover:bg-white/25 text-white text-sm font-semibold transition-colors"
+            <button
+              type="button"
+              onClick={handleBackToCasinos}
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 hover:bg-white/25 text-white text-sm font-semibold transition-colors cursor-pointer"
             >
               <i className="fa fa-arrow-left"></i>
               Back to all casinos
-            </Link>
+            </button>
           </div>
           <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6">
             <div className="flex items-center justify-center flex-shrink-0 md:w-40 md:h-40 md:bg-white md:rounded-lg md:p-4 md:shadow-lg">
@@ -1943,10 +1953,14 @@ export default function CasinoReviewPage() {
 
             {/* Back to Casinos */}
             <div className="text-center pb-4">
-              <Link to="/" className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 font-medium">
+              <button
+                type="button"
+                onClick={handleBackToCasinos}
+                className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 font-medium cursor-pointer"
+              >
                 <i className="fa fa-arrow-left"></i>
                 Back to all casinos
-              </Link>
+              </button>
             </div>
 
           </div>
