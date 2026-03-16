@@ -643,7 +643,7 @@ const allCasinosMini: CasinoMiniCard[] = [
 const latestBonusesSidebar = [
   {
     slug: 'ipay9',
-    casino: 'iPay9',
+    casino: 'iPay9 Casino',
     logo: '/casinos/ipay9.png',
     title: 'Weekly Commission 7%',
     code: null as string | null,
@@ -651,7 +651,7 @@ const latestBonusesSidebar = [
   },
   {
     slug: 'kingbet9',
-    casino: 'Kingbet9',
+    casino: 'Kingbet9 Casino',
     logo: '/casinos/kingbet9.png',
     title: 'Unlimited Random Bonus',
     code: null as string | null,
@@ -659,7 +659,7 @@ const latestBonusesSidebar = [
   },
   {
     slug: 'bigpay77',
-    casino: 'Bigpay77',
+    casino: 'Bigpay77 Casino',
     logo: '/casinos/bigpay77.png',
     title: 'Welcome Bonus 80%',
     code: null as string | null,
@@ -667,7 +667,7 @@ const latestBonusesSidebar = [
   },
   {
     slug: 'me99',
-    casino: 'Me99',
+    casino: 'Me99 Casino',
     logo: '/casinos/me99.png',
     title: '5% Rebate Bonus',
     code: null as string | null,
@@ -675,7 +675,7 @@ const latestBonusesSidebar = [
   },
   {
     slug: 'rolex9',
-    casino: 'Rolex9',
+    casino: 'Rolex9 Casino',
     logo: '/casinos/rolex9.png',
     title: 'Slot Welcome Bonus 50%',
     code: null as string | null,
@@ -683,7 +683,7 @@ const latestBonusesSidebar = [
   },
   {
     slug: 'gucci9',
-    casino: 'Gucci9',
+    casino: 'Gucci9 Casino',
     logo: '/casinos/gucci9.png',
     title: 'Every Deposit Random Bonus',
     code: null as string | null,
@@ -691,7 +691,7 @@ const latestBonusesSidebar = [
   },
   {
     slug: 'bybid9',
-    casino: 'Bybid9',
+    casino: 'Bybid9 Casino',
     logo: '/casinos/bybid9.png',
     title: 'Daily Easy Step Free 100',
     code: null as string | null,
@@ -699,7 +699,7 @@ const latestBonusesSidebar = [
   },
   {
     slug: 'mrbean9',
-    casino: 'MrBean9',
+    casino: 'MrBean9 Casino',
     logo: '/casinos/mrbean9.png',
     title: 'Daily First Deposit 30%',
     code: null as string | null,
@@ -707,7 +707,7 @@ const latestBonusesSidebar = [
   },
   {
     slug: 'pkm9',
-    casino: 'PKM9',
+    casino: 'PKM9 Casino',
     logo: '/casinos/pkm9.png',
     title: 'Daily Slot Bonus 80%',
     code: null as string | null,
@@ -715,7 +715,7 @@ const latestBonusesSidebar = [
   },
   {
     slug: 'ace96au',
-    casino: 'ACE96AU',
+    casino: 'Ace96au Casino',
     logo: '/casinos/ace96au.png',
     title: '100% VVIP Bonus',
     code: null as string | null,
@@ -723,7 +723,7 @@ const latestBonusesSidebar = [
   },
   {
     slug: 'winnie777',
-    casino: 'Winnie777',
+    casino: 'Winnie777 Casino',
     logo: '/casinos/winnie777.png',
     title: 'Free Credit 365 Days',
     code: null as string | null,
@@ -731,7 +731,7 @@ const latestBonusesSidebar = [
   },
   {
     slug: 'micky9',
-    casino: 'Micky9',
+    casino: 'Micky9 Casino',
     logo: '/casinos/micky9.png',
     title: 'Weekly Commission 5%',
     code: null as string | null,
@@ -739,7 +739,7 @@ const latestBonusesSidebar = [
   },
   {
     slug: 'queen13',
-    casino: 'Queen13',
+    casino: 'Queen13 Casino',
     logo: '/casinos/queen13.png',
     title: 'Slot Welcome Bonus 50%',
     code: null as string | null,
@@ -898,10 +898,32 @@ function SidebarStars({ rating }: { rating: number }) {
 }
 
 function ReviewSidebar({ currentSlug }: { currentSlug: string }) {
+  const initialCasinoCount = 5;
+  const initialBonusCount = 4;
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
+  const [showAllCasinos, setShowAllCasinos] = useState(false);
+  const [showAllBonuses, setShowAllBonuses] = useState(false);
 
-  const topPicks = allCasinosMini.filter((c) => c.slug !== currentSlug).slice(0, 5);
-  const latestBonuses = latestBonusesSidebar.filter((bonus) => bonus.slug !== currentSlug).slice(0, 3);
+  const topPickMetaBySlug: Record<string, { tag?: string; bonus: string }> = {
+    ace96au: { tag: "New Launch", bonus: "100% VVIP Bonus" },
+    ipay9: { tag: "Top Rated", bonus: "Weekly Commission 7%" },
+    kingbet9: { tag: "Editor's Choice", bonus: "Unlimited Random Bonus" },
+    bigpay77: { tag: "Most Popular", bonus: "Welcome Bonus 80%" },
+    me99: { tag: "Player's Favorite", bonus: "5% Rebate Bonus" },
+    rolex9: { tag: "High Roller Pick", bonus: "Slot Welcome Bonus 50%" },
+    gucci9: { tag: "High Rebates", bonus: "Every Deposit Random Bonus" },
+    bybid9: { tag: "Premium Jackpot", bonus: "Daily Easy Step Free 100" },
+    mrbean9: { tag: "Best for Pokies", bonus: "Daily First Deposit 30%" },
+    pkm9: { tag: "Fastest Payouts", bonus: "Daily Slot Bonus 80%" },
+    winnie777: { tag: "Bonuses Packed", bonus: "Free Credit 365 Days" },
+    micky9: { tag: "Mobile Friendly", bonus: "Weekly Commission 5%" },
+    queen13: { tag: "Best for Pokies", bonus: "Slot Welcome Bonus 50%" },
+  };
+
+  const topPicks = allCasinosMini.filter((c) => c.slug !== currentSlug);
+  const latestBonuses = latestBonusesSidebar.filter((bonus) => bonus.slug !== currentSlug);
+  const visibleTopPicks = showAllCasinos ? topPicks : topPicks.slice(0, initialCasinoCount);
+  const visibleBonuses = showAllBonuses ? latestBonuses : latestBonuses.slice(0, initialBonusCount);
 
   const copyCode = (code: string) => {
     navigator.clipboard.writeText(code);
@@ -912,26 +934,36 @@ function ReviewSidebar({ currentSlug }: { currentSlug: string }) {
   return (
     <div className="space-y-6">
       {/* ── Top Casino Picks ── */}
-      <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
+      <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
         <div className="bg-teal-600 px-4 py-3 flex items-center gap-2">
           <i className="ri-trophy-line text-white text-base"></i>
           <h3 className="text-sm font-bold text-white">Top Casino Picks</h3>
         </div>
         <div className="divide-y divide-gray-100">
-          {topPicks.map((casino, i) => (
+          {visibleTopPicks.map((casino, i) => {
+            const meta = topPickMetaBySlug[casino.slug];
+            return (
             <div key={casino.slug} className="flex items-center gap-3 px-4 py-3 hover:bg-gray-50 transition-colors">
               <span className="text-xs font-bold text-gray-400 w-4 flex-shrink-0">{i + 1}</span>
               <div className="w-10 h-8 flex-shrink-0 flex items-center justify-center">
                 <img src={casino.logo} alt={casino.name} className="max-w-full max-h-full object-contain" />
               </div>
               <div className="flex-1 min-w-0">
-                <Link
-                  to={`/${casino.slug}`}
-                  className="text-xs font-semibold text-gray-800 hover:text-teal-600 truncate block"
-                >
-                  {casino.name}
-                </Link>
+                <div className="flex items-center gap-1 flex-wrap">
+                  <Link
+                    to={`/${casino.slug}`}
+                    className="text-xs font-semibold text-gray-800 hover:text-teal-600 truncate"
+                  >
+                    {casino.name}
+                  </Link>
+                  {meta?.tag && (
+                    <span className="text-[10px] bg-teal-100 text-teal-700 px-1.5 py-0.5 rounded-full font-medium whitespace-nowrap">
+                      {meta.tag}
+                    </span>
+                  )}
+                </div>
                 <SidebarStars rating={casino.rating} />
+                {meta?.bonus && <div className="text-[11px] text-green-700 font-medium mt-0.5 truncate">{meta.bonus}</div>}
               </div>
               <a
                 href={casino.playLink}
@@ -942,31 +974,35 @@ function ReviewSidebar({ currentSlug }: { currentSlug: string }) {
                 Play
               </a>
             </div>
-          ))}
+          )})}
         </div>
         <div className="px-4 py-3 border-t border-gray-100 bg-gray-50">
-          <Link to="/" className="text-xs text-teal-600 hover:text-teal-700 font-medium flex items-center gap-1">
+          <button
+            onClick={() => setShowAllCasinos(true)}
+            disabled={showAllCasinos}
+            className="text-xs text-teal-600 hover:text-teal-700 font-medium flex items-center gap-1 cursor-pointer disabled:opacity-50 disabled:cursor-default"
+          >
             View all casinos <i className="ri-arrow-right-s-line"></i>
-          </Link>
+          </button>
         </div>
       </div>
 
       {/* ── Latest Bonuses ── */}
-      <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
+      <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
         <div className="bg-amber-500 px-4 py-3 flex items-center gap-2">
           <i className="ri-gift-line text-white text-base"></i>
           <h3 className="text-sm font-bold text-white">Latest Bonuses</h3>
         </div>
         <div className="divide-y divide-gray-100">
-          {latestBonuses.map((bonus, i) => (
+          {visibleBonuses.map((bonus, i) => (
             <div key={i} className="px-4 py-3 hover:bg-gray-50 transition-colors">
               <div className="flex items-center gap-2 mb-1.5">
                 <div className="w-8 h-6 flex-shrink-0 flex items-center justify-center">
                   <img src={bonus.logo} alt={bonus.casino} className="max-w-full max-h-full object-contain" />
                 </div>
-                <span className="text-xs font-semibold text-gray-700 truncate">{bonus.casino}</span>
+                <span className="text-sm font-semibold text-gray-700 truncate">{bonus.casino}</span>
               </div>
-              <div className="text-xs text-green-700 font-bold mb-1.5">{bonus.title}</div>
+              <div className="text-sm text-green-700 font-bold mb-1.5">{bonus.title}</div>
               {bonus.code ? (
                 <div className="flex items-center gap-2 mb-2">
                   <button
@@ -995,9 +1031,13 @@ function ReviewSidebar({ currentSlug }: { currentSlug: string }) {
           ))}
         </div>
         <div className="px-4 py-3 border-t border-gray-100 bg-gray-50">
-          <Link to="/" className="text-xs text-amber-600 hover:text-amber-700 font-medium flex items-center gap-1">
+          <button
+            onClick={() => setShowAllBonuses(true)}
+            disabled={showAllBonuses}
+            className="text-xs text-amber-600 hover:text-amber-700 font-medium flex items-center gap-1 cursor-pointer disabled:opacity-50 disabled:cursor-default"
+          >
             View all bonuses <i className="ri-arrow-right-s-line"></i>
-          </Link>
+          </button>
         </div>
       </div>
 
@@ -1756,11 +1796,11 @@ export default function CasinoReviewPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 text-sm">
             <div><div className="text-gray-500 text-xs mb-1">Payout Time</div><div className="font-bold text-gray-900">{casino.payoutTime}</div></div>
             <div><div className="text-gray-500 text-xs mb-1">Withdraw Limit</div><div className="font-bold text-gray-900">{casino.withdrawLimit}</div></div>
-            <div><div className="text-gray-500 text-xs mb-1">Games</div><div className="font-bold text-gray-900 text-xs">{casino.games}</div></div>
+            <div><div className="text-gray-500 text-xs mb-1">Games</div><div className="font-bold text-gray-900">{casino.games}</div></div>
             <div><div className="text-gray-500 text-xs mb-1">RTP</div><div className="font-bold text-gray-900">{casino.rtp}</div></div>
-            <div><div className="text-gray-500 text-xs mb-1">Supported OS</div><div className="font-bold text-gray-900 text-xs">{casino.os}</div></div>
-            <div><div className="text-gray-500 text-xs mb-1">Currencies</div><div className="font-bold text-gray-900 text-xs">{casino.currencies}</div></div>
-            <div><div className="text-gray-500 text-xs mb-1">Languages</div><div className="font-bold text-gray-900 text-xs">{casino.languages}</div></div>
+            <div><div className="text-gray-500 text-xs mb-1">Supported OS</div><div className="font-bold text-gray-900">{casino.os}</div></div>
+            <div><div className="text-gray-500 text-xs mb-1">Currencies</div><div className="font-bold text-gray-900">{casino.currencies}</div></div>
+            <div><div className="text-gray-500 text-xs mb-1">Languages</div><div className="font-bold text-gray-900">{casino.languages}</div></div>
           </div>
         </div>
       </div>

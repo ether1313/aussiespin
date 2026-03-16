@@ -316,7 +316,7 @@ export default function Sidebar() {
                 </div>
                 <span className="text-sm font-semibold text-gray-700 truncate">{bonus.casino}</span>
               </div>
-              <div className="text-xs text-green-700 font-bold mb-1.5">{bonus.title}</div>
+              <div className="text-sm text-green-700 font-bold mb-1.5">{bonus.title}</div>
               {bonus.code ? (
                 <div className="flex items-center gap-2 mb-2">
                   <button
