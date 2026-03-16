@@ -5,7 +5,7 @@ const topCasinos = [
   {
     name: "Ace96au",
     logo: "/casinos/ace96au.png",
-    rating: 4.89,
+    rating: 4.98,
     bonus: "150% up to A$1,500 + 180 FS",
     reviewLink: "/ace96-au",
     playLink: "https://auspokies.net/affiliates/4158946",
@@ -14,7 +14,7 @@ const topCasinos = [
   {
     name: "iPay9",
     logo: "/casinos/ipay9.png",
-    rating: 4.91,
+    rating: 4.96,
     bonus: "Up to A$1,100 + 110 FS",
     reviewLink: "/ipay9",
     playLink: "https://auspokies.net/affiliates/4158946",
@@ -23,7 +23,7 @@ const topCasinos = [
   {
     name: "Kingbet9",
     logo: "/casinos/kingbet9.png",
-    rating: 4.92,
+    rating: 4.94,
     bonus: "125% up to A$950 + 95 FS",
     reviewLink: "/kingbet9",
     playLink: "https://auspokies.net/affiliates/4499886",
@@ -32,7 +32,7 @@ const topCasinos = [
   {
     name: "Bigpay77",
     logo: "/casinos/bigpay77.png",
-    rating: 4.90,
+    rating: 4.92,
     bonus: "100% up to A$770 + 77 FS",
     reviewLink: "/bigpay77",
     playLink: "https://auspokies.net/affiliates/2392349",
@@ -41,7 +41,7 @@ const topCasinos = [
   {
     name: "Me99",
     logo: "/casinos/me99.png",
-    rating: 4.88,
+    rating: 4.90,
     bonus: "120% up to A$1,200 + 120 FS",
     reviewLink: "/me99",
     playLink: "https://auspokies.net/affiliates/2392349",
@@ -50,7 +50,7 @@ const topCasinos = [
   {
     name: "Rolex9",
     logo: "/casinos/rolex9.png",
-    rating: 4.94,
+    rating: 4.88,
     bonus: "100% up to A$600 + 60 FS",
     reviewLink: "/rolex9",
     playLink: "https://auspokies.net/affiliates/1722773",
@@ -59,7 +59,7 @@ const topCasinos = [
   {
     name: "Gucci9",
     logo: "/casinos/gucci9.png",
-    rating: 4.87,
+    rating: 4.86,
     bonus: "100% up to A$900 + 90 FS",
     reviewLink: "/gucci9",
     playLink: "https://auspokies.net/affiliates/2148247",
@@ -68,7 +68,7 @@ const topCasinos = [
   {
     name: "MrBean9",
     logo: "/casinos/mrbean9.png",
-    rating: 4.72,
+    rating: 4.84,
     bonus: "110% up to A$700 + 70 FS",
     reviewLink: "/mrbean9",
     playLink: "https://auspokies.net/affiliates/2392349",
@@ -77,7 +77,7 @@ const topCasinos = [
   {
     name: "PKM9",
     logo: "/casinos/pkm9.png",
-    rating: 4.80,
+    rating: 4.82,
     bonus: "130% up to A$1,300 + 130 FS",
     reviewLink: "/pkm9",
     playLink: "https://auspokies.net/affiliates/4499886",
@@ -86,7 +86,7 @@ const topCasinos = [
   {
     name: "Winnie777",
     logo: "/casinos/winnie777.png",
-    rating: 4.93,
+    rating: 4.80,
     bonus: "140% up to A$1,777 + 177 FS",
     reviewLink: "/winnie777",
     playLink: "https://auspokies.net/affiliates/2148247",
@@ -95,7 +95,7 @@ const topCasinos = [
   {
     name: "Micky9",
     logo: "/casinos/micky9.png",
-    rating: 4.80,
+    rating: 4.78,
     bonus: "Up to A$888 + 88 FS",
     reviewLink: "/micky9",
     playLink: "https://auspokies.net/affiliates/4158946",
@@ -104,7 +104,7 @@ const topCasinos = [
   {
     name: "Bybid9",
     logo: "/casinos/bybid9.png",
-    rating: 4.96,
+    rating: 4.76,
     bonus: "Up to A$999 + 99 FS",
     reviewLink: "/bybid9",
     playLink: "https://auspokies.net/affiliates/1722773",

@@ -47,7 +47,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
     {
       id: 1, rank: 1, name: "Ace96au",
       logo: "/casinos/ace96au.png",
-      rating: 4.85, ratingCount: 512,
+      rating: 4.98, ratingCount: 512,
       bonus: "100% VVIP Bonus", bonusLabel: "VIP Bonus",
       payoutTime: "Instant", withdrawLimit: "A$50,000 - A$100,000",
       games: "4000+", os: "Windows, Mac, iOS, Android", rtp: "96.4%",
@@ -60,7 +60,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
     {
       id: 2, rank: 2, name: "iPay9",
       logo: "/casinos/ipay9.png",
-      rating: 4.97, ratingCount: 188,
+      rating: 4.96, ratingCount: 188,
       bonus: "Weekly Commission 7%", bonusLabel: "Weekly Commission",
       payoutTime: "Instant - 2 hours", withdrawLimit: "A$300,000",
       games: "4500++", os: "Windows, Mac, Android, iOS", rtp: "95.8%",
@@ -73,7 +73,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
     {
       id: 3, rank: 3, name: "Kingbet9",
       logo: "/casinos/kingbet9.png",
-      rating: 4.72, ratingCount: 219,
+      rating: 4.94, ratingCount: 219,
       bonus: "Unlimited Random Bonus", bonusLabel: "Daily Bonus",
       payoutTime: "1-3 hours", withdrawLimit: "A$200,000",
       games: "4000+", os: "Android, iOS, Web", rtp: "95.9%",
@@ -86,7 +86,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
     {
       id: 4, rank: 4, name: "Bigpay77",
       logo: "/casinos/bigpay77.png",
-      rating: 4.83, ratingCount: 167,
+      rating: 4.92, ratingCount: 167,
       bonus: "Welcome Bonus 80%", bonusLabel: "Welcome Bonus",
       payoutTime: "1-6 hours", withdrawLimit: "A$200,000",
       games: "5500+", os: "Android, iOS, Web", rtp: "95.7%",
@@ -99,7 +99,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
     {
       id: 5, rank: 5, name: "Me99",
       logo: "/casinos/me99.png",
-      rating: 4.72, ratingCount: 468,
+      rating: 4.90, ratingCount: 468,
       bonus: "5% Rebate Bonus", bonusLabel: "Daily Rebate",
       payoutTime: "1-3 hours", withdrawLimit: "A$100,000",
       games: "4500++", os: "Android, iOS, Web", rtp: "96.1%",
@@ -112,7 +112,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
     {
       id: 6, rank: 6, name: "Rolex9",
       logo: "/casinos/rolex9.png",
-      rating: 4.86, ratingCount: 276,
+      rating: 4.88, ratingCount: 276,
       bonus: "Slot Welcome Bonus 50%", bonusLabel: "Welcome Bonus",
       payoutTime: "Instant - 1 hour", withdrawLimit: "A$100,000",
       games: "4500++", os: "Android, iOS", rtp: "95.6%",
@@ -125,7 +125,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
     {
       id: 7, rank: 7, name: "Gucci9",
       logo: "/casinos/gucci9.png",
-      rating: 4.78, ratingCount: 399,
+      rating: 4.86, ratingCount: 399,
       bonus: "Every Deposit Random Bonus", bonusLabel: "Random Bonus",
       payoutTime: "15 minutes - 3 hours", withdrawLimit: "A$100,000",
       games: "4000+", os: "Android, iOS, Windows", rtp: "96.0%",
@@ -138,7 +138,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
     {
       id: 8, rank: 8, name: "MrBean9",
       logo: "/casinos/mrbean9.png",
-      rating: 4.88, ratingCount: 301,
+      rating: 4.84, ratingCount: 301,
       bonus: "Daily First Deposit 30%", bonusLabel: "Daily Bonus",
       payoutTime: "1-6 hours", withdrawLimit: "A$50,000 - A$100,000",
       games: "4000+", os: "Windows, Mac, Android", rtp: "95.7%",
@@ -151,7 +151,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
     {
       id: 9, rank: 9, name: "PKM9",
       logo: "/casinos/pkm9.png",
-      rating: 4.90, ratingCount: 365,
+      rating: 4.82, ratingCount: 365,
       bonus: "Daily Slot Bonus 80%", bonusLabel: "Daily Bonus",
       payoutTime: "1-6 hours", withdrawLimit: "A$50,000 - A$100,000",
       games: "4500++", os: "Windows, Mac, Android, iOS", rtp: "96.2%",
@@ -164,7 +164,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
     {
       id: 10, rank: 10, name: "Winnie777",
       logo: "/casinos/winnie777.png",
-      rating: 4.72, ratingCount: 243,
+      rating: 4.80, ratingCount: 243,
       bonus: "Free Credit 365 Days", bonusLabel: "Free Credit",
       payoutTime: "15 minutes - 6 hours", withdrawLimit: "A$50,000 - A$100,000",
       games: "5500+", os: "Windows, Mac, Android, iOS", rtp: "96.0%",
@@ -177,7 +177,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
     {
       id: 11, rank: 11, name: "Micky9",
       logo: "/casinos/micky9.png",
-      rating: 4.83, ratingCount: 332,
+      rating: 4.78, ratingCount: 332,
       bonus: "Weekly Commission 5%", bonusLabel: "Weekly Commission",
       payoutTime: "Instant", withdrawLimit: "A$50,000 - A$100,000",
       games: "5500+", os: "Android, iOS, Web", rtp: "95.8%",
@@ -190,7 +190,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
     {
       id: 12, rank: 12, name: "Bybid9",
       logo: "/casinos/bybid9.png",
-      rating: 4.75, ratingCount: 421,
+      rating: 4.76, ratingCount: 421,
       bonus: "Daily Easy Step Free 100", bonusLabel: "Daily Bonus",
       payoutTime: "Instant - 2 hours", withdrawLimit: "A$20,000 per month",
       games: "5500+", os: "Windows, Mac, Android, iOS", rtp: "95.9%",
@@ -203,7 +203,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
     {
       id: 13, rank: 13, name: "Queen13",
       logo: "/casinos/queen13.png",
-      rating: 4.67, ratingCount: 149,
+      rating: 4.75, ratingCount: 149,
       bonus: "Slot Welcome Bonus 50%", bonusLabel: "Welcome Bonus",
       payoutTime: "15 minutes - 1 day", withdrawLimit: "A$50,000 - A$100,000",
       games: "4000+", os: "Windows, Android, iOS", rtp: "95.6%",
