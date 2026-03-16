@@ -7,8 +7,8 @@ const bonuses = [
     logo: "/casinos/ace96au.png",
     title: "Special Rebate Bonus AUD 50",
     description: "Limited to 1 claim per day. VIP rebate bonus AUD 50 with slot-game-only conditions and daily deposit requirement.",
-    code: "",
-    link: "https://auspokies.net/affiliates/4595713"
+    code: "RFAUSSIESPIN95",
+    link: "https://ace96au.net/RFAUSSIESPIN95"
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const bonuses = [
     title: "Welcome Bonus 50%",
     description: "New member slot welcome bonus 50%. Deposit AUD 30+ to join, with standard rollover and product restrictions.",
     code: "RF29282A519",
-    link: "https://auspokies.net/affiliates/5733817"
+    link: "https://ipay9.co/RFAUSSIESPINAUD"
   },
   {
     id: 3,
@@ -25,8 +25,8 @@ const bonuses = [
     logo: "/casinos/kingbet9.png",
     title: "Slot Daily Bonus 39%",
     description: "Daily member bonus with minimum deposit AUD 50. Applies to slot products with rollover and withdrawal requirements.",
-    code: "",
-    link: "https://auspokies.net/affiliates/7006427"
+    code: "RFAUSSIESPIN",
+    link: "https://k9aus.net/RFAUSSIESPIN"
   },
   {
     id: 4,
@@ -34,8 +34,8 @@ const bonuses = [
     logo: "/casinos/bigpay77.png",
     title: "Daily Easy Step Free 100",
     description: "Daily free bonus flow for BigPay77 members. Follow customer-service steps and sharing requirements to qualify.",
-    code: "",
-    link: "https://auspokies.net/affiliates/2392349"
+    code: "RFAUSSIESPINN",
+    link: "https://bigpay77aus.com/RFAUSSIESPINN"
   },
   {
     id: 5,
@@ -43,8 +43,8 @@ const bonuses = [
     logo: "/casinos/me99.png",
     title: "Every Deposit Random Bonus",
     description: "Random slot bonus on every qualifying deposit. Includes low minimum entry and clear turnover/withdrawal rules.",
-    code: "",
-    link: "https://auspokies.net/affiliates/4957624"
+    code: "RFAUSSIESPIN99",
+    link: "https://me99office.co/RFAUSSIESPIN99"
   },
   {
     id: 6,
@@ -52,8 +52,8 @@ const bonuses = [
     logo: "/casinos/rolex9.png",
     title: "Free Credit AUD 99.99",
     description: "Free credit campaign with monthly claim limit. Complete guided steps to receive and unlock withdrawal conditions.",
-    code: "",
-    link: "https://auspokies.net/affiliates/1722773"
+    code: "RFAUSSIESPINJ",
+    link: "https://rolex9.net/RFAUSSIESPINJ"
   },
   {
     id: 7,
@@ -61,8 +61,8 @@ const bonuses = [
     logo: "/casinos/gucci9.png",
     title: "Slot Welcome Bonus 50%",
     description: "New member one-time slot welcome bonus with AUD 50 minimum deposit and structured rollover requirements.",
-    code: "",
-    link: "https://auspokies.net/affiliates/2148247"
+    code: "RFAUSSIESPIN33",
+    link: "https://guccii9au.net/RFAUSSIESPIN33"
   },
   {
     id: 8,
@@ -70,8 +70,8 @@ const bonuses = [
     logo: "/casinos/mrbean9.png",
     title: "Daily Slot First Deposit 30%",
     description: "Daily first-deposit bonus for MrBean9 members with small minimum deposit and product-specific conditions.",
-    code: "",
-    link: "https://auspokies.net/affiliates/2392349"
+    code: "RFAUSSIESPIN9",
+    link: "https://mrbean9au.com/RFAUSSIESPIN9"
   },
   {
     id: 9,
@@ -79,8 +79,8 @@ const bonuses = [
     logo: "/casinos/pkm9.png",
     title: "Slot Unlimited Bonus 50%",
     description: "One-time member slot bonus with AUD 50 minimum deposit, rollover conditions, and game eligibility limits.",
-    code: "",
-    link: "https://auspokies.net/affiliates/4499886"
+    code: "RFAUSSIESPIN98",
+    link: "https://pokemon9aus.co/RFAUSSIESPIN98"
   },
   {
     id: 10,
@@ -88,8 +88,8 @@ const bonuses = [
     logo: "/casinos/winnie777.png",
     title: "Free Credit AUD 103.33",
     description: "Single-claim free credit campaign for members with product restrictions and fixed withdrawal caps.",
-    code: "",
-    link: "https://auspokies.net/affiliates/2148247"
+    code: "RFAUSSIESPIN96",
+    link: "https://winnie777.vip/RFAUSSIESPIN96"
   },
   {
     id: 11,
@@ -97,8 +97,8 @@ const bonuses = [
     logo: "/casinos/micky9.png",
     title: "Free Credit 103.33 AUD",
     description: "No-deposit free credit style bonus for members, with strict game eligibility and capped withdrawal amount.",
-    code: "",
-    link: "https://auspokies.net/affiliates/4158946"
+    code: "RFAUSSIESPIN97",
+    link: "https://micky13.asia/RFAUSSIESPIN97"
   },
   {
     id: 12,
@@ -106,8 +106,8 @@ const bonuses = [
     logo: "/casinos/bybid9.png",
     title: "Premium Jackpot 5999 AUD",
     description: "Grand jackpot promotion with direct-cash style bonus mechanics, deposit requirement, and slot-only restrictions.",
-    code: "",
-    link: "https://auspokies.net/affiliates/1722773"
+    code: "RFAUSSIESPINAU",
+    link: "https://bybid9.net/RFAUSSIESPINAU"
   },
   {
     id: 13,
@@ -115,8 +115,8 @@ const bonuses = [
     logo: "/casinos/queen13.png",
     title: "New Member Free AUD 113",
     description: "New registration bonus for eligible Queen13 members, with app/event-game constraints and withdrawal rules.",
-    code: "",
-    link: "https://auspokies.net/affiliates/1722773"
+    code: "RFAUSSIESPIN94",
+    link: "https://queen13au.com/RFAUSSIESPIN94"
   }
 ];
 

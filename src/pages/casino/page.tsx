@@ -552,91 +552,91 @@ const allCasinosMini: CasinoMiniCard[] = [
     name: 'iPay9',
     logo: '/casinos/ipay9.png',
     rating: 4.96,
-    playLink: 'https://auspokies.net/affiliates/4158946',
+    playLink: 'https://ipay9.co/RFAUSSIESPINAUD',
   },
   {
     slug: 'kingbet9',
     name: 'Kingbet9',
     logo: '/casinos/kingbet9.png',
     rating: 4.94,
-    playLink: 'https://auspokies.net/affiliates/4499886',
+    playLink: 'https://k9aus.net/RFAUSSIESPIN',
   },
   {
     slug: 'bigpay77',
     name: 'Bigpay77',
     logo: '/casinos/bigpay77.png',
     rating: 4.92,
-    playLink: 'https://auspokies.net/affiliates/2392349',
+    playLink: 'https://bigpay77aus.com/RFAUSSIESPINN',
   },
   {
     slug: 'me99',
     name: 'Me99',
     logo: '/casinos/me99.png',
     rating: 4.90,
-    playLink: 'https://auspokies.net/affiliates/2392349',
+    playLink: 'https://me99office.co/RFAUSSIESPIN99',
   },
   {
     slug: 'rolex9',
     name: 'Rolex9',
     logo: '/casinos/rolex9.png',
     rating: 4.88,
-    playLink: 'https://auspokies.net/affiliates/1722773',
+    playLink: 'https://rolex9.net/RFAUSSIESPINJ',
   },
   {
     slug: 'gucci9',
     name: 'Gucci9',
     logo: '/casinos/gucci9.png',
     rating: 4.86,
-    playLink: 'https://auspokies.net/affiliates/2148247',
+    playLink: 'https://guccii9au.net/RFAUSSIESPIN33',
   },
   {
     slug: 'bybid9',
     name: 'Bybid9',
     logo: '/casinos/bybid9.png',
     rating: 4.84,
-    playLink: 'https://auspokies.net/affiliates/1722773',
+    playLink: 'https://bybid9.net/RFAUSSIESPINAU',
   },
   {
     slug: 'mrbean9',
     name: 'MrBean9',
     logo: '/casinos/mrbean9.png',
     rating: 4.84,
-    playLink: 'https://auspokies.net/affiliates/2392349',
+    playLink: 'https://mrbean9au.com/RFAUSSIESPIN9',
   },
   {
     slug: 'pkm9',
     name: 'PKM9',
     logo: '/casinos/pkm9.png',
     rating: 4.82,
-    playLink: 'https://auspokies.net/affiliates/4499886',
+    playLink: 'https://pokemon9aus.co/RFAUSSIESPIN98',
   },
   {
     slug: 'ace96au',
     name: 'ACE96AU',
     logo: '/casinos/ace96au.png',
     rating: 4.98,
-    playLink: 'https://auspokies.net/affiliates/4158946',
+    playLink: 'https://ace96au.net/RFAUSSIESPIN95',
   },
   {
     slug: 'winnie777',
     name: 'Winnie777',
     logo: '/casinos/winnie777.png',
     rating: 4.80,
-    playLink: 'https://auspokies.net/affiliates/2148247',
+    playLink: 'https://winnie777.vip/RFAUSSIESPIN96',
   },
   {
     slug: 'micky9',
     name: 'Micky9',
     logo: '/casinos/micky9.png',
     rating: 4.78,
-    playLink: 'https://auspokies.net/affiliates/4158946',
+    playLink: 'https://micky13.asia/RFAUSSIESPIN97',
   },
   {
     slug: 'queen13',
     name: 'Queen13',
     logo: '/casinos/queen13.png',
     rating: 4.75,
-    playLink: 'https://auspokies.net/affiliates/1722773',
+    playLink: 'https://queen13au.com/RFAUSSIESPIN94',
   },
 ];
 
@@ -647,7 +647,7 @@ const latestBonusesSidebar = [
     logo: '/casinos/ipay9.png',
     title: 'Weekly Commission 7%',
     code: null as string | null,
-    link: 'https://auspokies.net/affiliates/4158946',
+    link: 'https://ipay9.co/RFAUSSIESPINAUD',
   },
   {
     slug: 'kingbet9',
@@ -655,7 +655,7 @@ const latestBonusesSidebar = [
     logo: '/casinos/kingbet9.png',
     title: 'Unlimited Random Bonus',
     code: null as string | null,
-    link: 'https://auspokies.net/affiliates/4499886',
+    link: 'https://k9aus.net/RFAUSSIESPIN',
   },
   {
     slug: 'bigpay77',
@@ -663,7 +663,7 @@ const latestBonusesSidebar = [
     logo: '/casinos/bigpay77.png',
     title: 'Welcome Bonus 80%',
     code: null as string | null,
-    link: 'https://auspokies.net/affiliates/2392349',
+    link: 'https://bigpay77aus.com/RFAUSSIESPINN',
   },
   {
     slug: 'me99',
@@ -671,7 +671,7 @@ const latestBonusesSidebar = [
     logo: '/casinos/me99.png',
     title: '5% Rebate Bonus',
     code: null as string | null,
-    link: 'https://auspokies.net/affiliates/2392349',
+    link: 'https://me99office.co/RFAUSSIESPIN99',
   },
   {
     slug: 'rolex9',
@@ -679,7 +679,7 @@ const latestBonusesSidebar = [
     logo: '/casinos/rolex9.png',
     title: 'Slot Welcome Bonus 50%',
     code: null as string | null,
-    link: 'https://auspokies.net/affiliates/1722773',
+    link: 'https://rolex9.net/RFAUSSIESPINJ',
   },
   {
     slug: 'gucci9',
@@ -687,7 +687,7 @@ const latestBonusesSidebar = [
     logo: '/casinos/gucci9.png',
     title: 'Every Deposit Random Bonus',
     code: null as string | null,
-    link: 'https://auspokies.net/affiliates/2148247',
+    link: 'https://guccii9au.net/RFAUSSIESPIN33',
   },
   {
     slug: 'bybid9',
@@ -695,7 +695,7 @@ const latestBonusesSidebar = [
     logo: '/casinos/bybid9.png',
     title: 'Daily Easy Step Free 100',
     code: null as string | null,
-    link: 'https://auspokies.net/affiliates/1722773',
+    link: 'https://bybid9.net/RFAUSSIESPINAU',
   },
   {
     slug: 'mrbean9',
@@ -703,7 +703,7 @@ const latestBonusesSidebar = [
     logo: '/casinos/mrbean9.png',
     title: 'Daily First Deposit 30%',
     code: null as string | null,
-    link: 'https://auspokies.net/affiliates/2392349',
+    link: 'https://mrbean9au.com/RFAUSSIESPIN9',
   },
   {
     slug: 'pkm9',
@@ -711,7 +711,7 @@ const latestBonusesSidebar = [
     logo: '/casinos/pkm9.png',
     title: 'Daily Slot Bonus 80%',
     code: null as string | null,
-    link: 'https://auspokies.net/affiliates/4499886',
+    link: 'https://pokemon9aus.co/RFAUSSIESPIN98',
   },
   {
     slug: 'ace96au',
@@ -719,7 +719,7 @@ const latestBonusesSidebar = [
     logo: '/casinos/ace96au.png',
     title: '100% VVIP Bonus',
     code: null as string | null,
-    link: 'https://auspokies.net/affiliates/4158946',
+    link: 'https://ace96au.net/RFAUSSIESPIN95',
   },
   {
     slug: 'winnie777',
@@ -727,7 +727,7 @@ const latestBonusesSidebar = [
     logo: '/casinos/winnie777.png',
     title: 'Free Credit 365 Days',
     code: null as string | null,
-    link: 'https://auspokies.net/affiliates/2148247',
+    link: 'https://winnie777.vip/RFAUSSIESPIN96',
   },
   {
     slug: 'micky9',
@@ -735,7 +735,7 @@ const latestBonusesSidebar = [
     logo: '/casinos/micky9.png',
     title: 'Weekly Commission 5%',
     code: null as string | null,
-    link: 'https://auspokies.net/affiliates/4158946',
+    link: 'https://micky13.asia/RFAUSSIESPIN97',
   },
   {
     slug: 'queen13',
@@ -743,7 +743,7 @@ const latestBonusesSidebar = [
     logo: '/casinos/queen13.png',
     title: 'Slot Welcome Bonus 50%',
     code: null as string | null,
-    link: 'https://auspokies.net/affiliates/1722773',
+    link: 'https://queen13au.com/RFAUSSIESPIN94',
   },
 ];
 
@@ -1272,19 +1272,19 @@ export default function CasinoReviewPage() {
     minDeposit: string;
     minWithdrawal: string;
   }> = {
-    ace96au: { name: 'ACE96AU', logo: '/casinos/ace96au.png', rating: 4.98, ratingCount: 512, tag: 'New Launch', bonusLabel: 'VIP Bonus', bonus: '100% VVIP Bonus', payoutTime: 'Instant', withdrawLimit: 'A$50,000 - A$100,000', games: '4000+', rtp: '96.4%', os: 'Windows, Mac, iOS, Android', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'osko', 'googlepay', 'applepay'], playLink: 'https://auspokies.net/affiliates/4158946', foundedYear: 2020, ownerCompany: 'ACE96AU Entertainment Pty Ltd', headquartersLocation: 'Sydney, Australia', monthlyPlayers: '210,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
-    ipay9: { name: 'iPay9', logo: '/casinos/ipay9.png', rating: 4.96, ratingCount: 188, tag: 'Top Rated', bonusLabel: 'Weekly Commission', bonus: 'Weekly Commission 7%', payoutTime: 'Instant - 2 hours', withdrawLimit: 'A$300,000', games: '4500++', rtp: '95.8%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['applepay', 'googlepay', 'visa', 'mastercard', 'payid', 'osko', 'crypto'], playLink: 'https://auspokies.net/affiliates/4158946', foundedYear: 2021, ownerCompany: 'iPay9 Entertainment Pty Ltd', headquartersLocation: 'Melbourne, Australia', monthlyPlayers: '245,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
-    kingbet9: { name: 'Kingbet9', logo: '/casinos/kingbet9.png', rating: 4.94, ratingCount: 219, tag: "Editor's Choice", bonusLabel: 'Daily Bonus', bonus: 'Unlimited Random Bonus', payoutTime: '1-3 hours', withdrawLimit: 'A$200,000', games: '4000+', rtp: '95.9%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['payid', 'visa', 'mastercard', 'ripple', 'usdt'], playLink: 'https://auspokies.net/affiliates/4499886', foundedYear: 2020, ownerCompany: 'Kingbet9 Gaming Pty Ltd', headquartersLocation: 'Brisbane, Australia', monthlyPlayers: '230,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
-    bigpay77: { name: 'Bigpay77', logo: '/casinos/bigpay77.png', rating: 4.92, ratingCount: 167, tag: 'Most Popular', bonusLabel: 'Welcome Bonus', bonus: 'Welcome Bonus 80%', payoutTime: '1-6 hours', withdrawLimit: 'A$200,000', games: '5500+', rtp: '95.7%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['payid', 'osko', 'speedpay', 'amopay', 'visa'], playLink: 'https://auspokies.net/affiliates/2392349', foundedYear: 2019, ownerCompany: 'Bigpay77 Entertainment Pty Ltd', headquartersLocation: 'Perth, Australia', monthlyPlayers: '220,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
-    me99: { name: 'Me99', logo: '/casinos/me99.png', rating: 4.90, ratingCount: 468, tag: "Player's Favorite", bonusLabel: 'Daily Rebate', bonus: '5% Rebate Bonus', payoutTime: '1-3 hours', withdrawLimit: 'A$100,000', games: '4500++', rtp: '96.1%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'speedpay', 'amopay'], playLink: 'https://auspokies.net/affiliates/2392349', foundedYear: 2022, ownerCompany: 'Me99 Interactive Pty Ltd', headquartersLocation: 'Sydney, Australia', monthlyPlayers: '240,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
-    rolex9: { name: 'Rolex9', logo: '/casinos/rolex9.png', rating: 4.88, ratingCount: 276, tag: 'High Roller Pick', bonusLabel: 'Welcome Bonus', bonus: 'Slot Welcome Bonus 50%', payoutTime: 'Instant - 1 hour', withdrawLimit: 'A$100,000', games: '4500++', rtp: '95.6%', os: 'Android, iOS', currencies: 'AUD', languages: 'English', payments: ['payid', 'osko', 'visa', 'mastercard'], playLink: 'https://auspokies.net/affiliates/1722773', foundedYear: 2019, ownerCompany: 'Rolex9 Digital Pty Ltd', headquartersLocation: 'Melbourne, Australia', monthlyPlayers: '180,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$29)' },
-    gucci9: { name: 'Gucci9', logo: '/casinos/gucci9.png', rating: 4.86, ratingCount: 399, tag: 'High Rebates', bonusLabel: 'Random Bonus', bonus: 'Every Deposit Random Bonus', payoutTime: '15 minutes - 3 hours', withdrawLimit: 'A$100,000', games: '4000+', rtp: '96.0%', os: 'Android, iOS, Windows', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'applepay', 'googlepay', 'speedpay'], playLink: 'https://auspokies.net/affiliates/2148247', foundedYear: 2021, ownerCompany: 'Gucci9 Interactive Pty Ltd', headquartersLocation: 'Brisbane, Australia', monthlyPlayers: '205,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
-    mrbean9: { name: 'MrBean9', logo: '/casinos/mrbean9.png', rating: 4.84, ratingCount: 301, tag: 'Best for Pokies', bonusLabel: 'Daily Bonus', bonus: 'Daily First Deposit 30%', payoutTime: '1-6 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '4000+', rtp: '95.7%', os: 'Windows, Mac, Android', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'googlepay', 'applepay', 'osko'], playLink: 'https://auspokies.net/affiliates/2392349', foundedYear: 2020, ownerCompany: 'MrBean9 Gaming Pty Ltd', headquartersLocation: 'Adelaide, Australia', monthlyPlayers: '190,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
-    pkm9: { name: 'PKM9', logo: '/casinos/pkm9.png', rating: 4.82, ratingCount: 365, tag: 'Fastest Payouts', bonusLabel: 'Daily Bonus', bonus: 'Daily Slot Bonus 80%', payoutTime: '1-6 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '4500++', rtp: '96.2%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['payid', 'osko', 'visa', 'mastercard', 'btc', 'eth'], playLink: 'https://auspokies.net/affiliates/4499886', foundedYear: 2022, ownerCompany: 'PKM9 Interactive Pty Ltd', headquartersLocation: 'Perth, Australia', monthlyPlayers: '175,000+', minDeposit: 'A$8', minWithdrawal: 'No Limit (min. A$28)' },
-    winnie777: { name: 'Winnie777', logo: '/casinos/winnie777.png', rating: 4.80, ratingCount: 243, tag: 'Bonuses Packed', bonusLabel: 'Free Credit', bonus: 'Free Credit 365 Days', payoutTime: '15 minutes - 6 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '5500+', rtp: '96.0%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'speedpay', 'googlepay'], playLink: 'https://auspokies.net/affiliates/2148247', foundedYear: 2019, ownerCompany: 'Winnie777 Digital Pty Ltd', headquartersLocation: 'Sydney, Australia', monthlyPlayers: '165,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$18)' },
-    micky9: { name: 'Micky9', logo: '/casinos/micky9.png', rating: 4.78, ratingCount: 332, tag: 'Mobile Friendly', bonusLabel: 'Weekly Commission', bonus: 'Weekly Commission 5%', payoutTime: 'Instant', withdrawLimit: 'A$50,000 - A$100,000', games: '5500+', rtp: '95.8%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'amopay', 'speedpay'], playLink: 'https://auspokies.net/affiliates/4158946', foundedYear: 2021, ownerCompany: 'Micky9 Entertainment Pty Ltd', headquartersLocation: 'Adelaide, Australia', monthlyPlayers: '150,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$30)' },
-    bybid9: { name: 'Bybid9', logo: '/casinos/bybid9.png', rating: 4.76, ratingCount: 421, tag: 'Premium Jackpot', bonusLabel: 'Daily Bonus', bonus: 'Daily Easy Step Free 100', payoutTime: 'Instant - 2 hours', withdrawLimit: 'A$20,000 per month', games: '5500+', rtp: '95.9%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['payid', 'osko', 'visa', 'mastercard', 'ripple', 'usdt'], playLink: 'https://auspokies.net/affiliates/1722773', foundedYear: 2020, ownerCompany: 'Bybid9 Gaming Pty Ltd', headquartersLocation: 'Melbourne, Australia', monthlyPlayers: '185,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
-    queen13: { name: 'Queen13', logo: '/casinos/queen13.png', rating: 4.75, ratingCount: 149, tag: 'Best for Pokies', bonusLabel: 'Welcome Bonus', bonus: 'Slot Welcome Bonus 50%', payoutTime: '15 minutes - 1 day', withdrawLimit: 'A$50,000 - A$100,000', games: '4000+', rtp: '95.6%', os: 'Windows, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'googlepay', 'applepay'], playLink: 'https://auspokies.net/affiliates/1722773', foundedYear: 2022, ownerCompany: 'Queen13 Interactive Pty Ltd', headquartersLocation: 'Brisbane, Australia', monthlyPlayers: '170,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
+    ace96au: { name: 'Ace96au', logo: '/casinos/ace96au.png', rating: 4.98, ratingCount: 512, tag: 'New Launch', bonusLabel: 'VIP Bonus', bonus: '100% VVIP Bonus', payoutTime: 'Instant', withdrawLimit: 'A$50,000 - A$100,000', games: '4000+', rtp: '96.4%', os: 'Windows, Mac, iOS, Android', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'osko', 'googlepay', 'applepay'], playLink: 'https://ace96au.net/RFAUSSIESPIN95', foundedYear: 2020, ownerCompany: 'ACE96AU Entertainment Pty Ltd', headquartersLocation: 'Sydney, Australia', monthlyPlayers: '210,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
+    ipay9: { name: 'iPay9', logo: '/casinos/ipay9.png', rating: 4.96, ratingCount: 188, tag: 'Top Rated', bonusLabel: 'Weekly Commission', bonus: 'Weekly Commission 7%', payoutTime: 'Instant - 2 hours', withdrawLimit: 'A$300,000', games: '4500++', rtp: '95.8%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['applepay', 'googlepay', 'visa', 'mastercard', 'payid', 'osko', 'crypto'], playLink: 'https://ipay9.co/RFAUSSIESPINAUD', foundedYear: 2021, ownerCompany: 'iPay9 Entertainment Pty Ltd', headquartersLocation: 'Melbourne, Australia', monthlyPlayers: '245,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
+    kingbet9: { name: 'Kingbet9', logo: '/casinos/kingbet9.png', rating: 4.94, ratingCount: 219, tag: "Editor's Choice", bonusLabel: 'Daily Bonus', bonus: 'Unlimited Random Bonus', payoutTime: '1-3 hours', withdrawLimit: 'A$200,000', games: '4000+', rtp: '95.9%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['payid', 'visa', 'mastercard', 'ripple', 'usdt'], playLink: 'https://k9aus.net/RFAUSSIESPIN', foundedYear: 2020, ownerCompany: 'Kingbet9 Gaming Pty Ltd', headquartersLocation: 'Brisbane, Australia', monthlyPlayers: '230,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
+    bigpay77: { name: 'Bigpay77', logo: '/casinos/bigpay77.png', rating: 4.92, ratingCount: 167, tag: 'Most Popular', bonusLabel: 'Welcome Bonus', bonus: 'Welcome Bonus 80%', payoutTime: '1-6 hours', withdrawLimit: 'A$200,000', games: '5500+', rtp: '95.7%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['payid', 'osko', 'speedpay', 'amopay', 'visa'], playLink: 'https://bigpay77aus.com/RFAUSSIESPINN', foundedYear: 2019, ownerCompany: 'Bigpay77 Entertainment Pty Ltd', headquartersLocation: 'Perth, Australia', monthlyPlayers: '220,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
+    me99: { name: 'Me99', logo: '/casinos/me99.png', rating: 4.90, ratingCount: 468, tag: "Player's Favorite", bonusLabel: 'Daily Rebate', bonus: '5% Rebate Bonus', payoutTime: '1-3 hours', withdrawLimit: 'A$100,000', games: '4500++', rtp: '96.1%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'speedpay', 'amopay'], playLink: 'https://me99office.co/RFAUSSIESPIN99', foundedYear: 2022, ownerCompany: 'Me99 Interactive Pty Ltd', headquartersLocation: 'Sydney, Australia', monthlyPlayers: '240,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
+    rolex9: { name: 'Rolex9', logo: '/casinos/rolex9.png', rating: 4.88, ratingCount: 276, tag: 'High Roller Pick', bonusLabel: 'Welcome Bonus', bonus: 'Slot Welcome Bonus 50%', payoutTime: 'Instant - 1 hour', withdrawLimit: 'A$100,000', games: '4500++', rtp: '95.6%', os: 'Android, iOS', currencies: 'AUD', languages: 'English', payments: ['payid', 'osko', 'visa', 'mastercard'], playLink: 'https://rolex9.net/RFAUSSIESPINJ', foundedYear: 2019, ownerCompany: 'Rolex9 Digital Pty Ltd', headquartersLocation: 'Melbourne, Australia', monthlyPlayers: '180,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$29)' },
+    gucci9: { name: 'Gucci9', logo: '/casinos/gucci9.png', rating: 4.86, ratingCount: 399, tag: 'High Rebates', bonusLabel: 'Random Bonus', bonus: 'Every Deposit Random Bonus', payoutTime: '15 minutes - 3 hours', withdrawLimit: 'A$100,000', games: '4000+', rtp: '96.0%', os: 'Android, iOS, Windows', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'applepay', 'googlepay', 'speedpay'], playLink: 'https://guccii9au.net/RFAUSSIESPIN33', foundedYear: 2021, ownerCompany: 'Gucci9 Interactive Pty Ltd', headquartersLocation: 'Brisbane, Australia', monthlyPlayers: '205,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
+    mrbean9: { name: 'MrBean9', logo: '/casinos/mrbean9.png', rating: 4.84, ratingCount: 301, tag: 'Best for Pokies', bonusLabel: 'Daily Bonus', bonus: 'Daily First Deposit 30%', payoutTime: '1-6 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '4000+', rtp: '95.7%', os: 'Windows, Mac, Android', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'googlepay', 'applepay', 'osko'], playLink: 'https://mrbean9au.com/RFAUSSIESPIN9', foundedYear: 2020, ownerCompany: 'MrBean9 Gaming Pty Ltd', headquartersLocation: 'Adelaide, Australia', monthlyPlayers: '190,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
+    pkm9: { name: 'PKM9', logo: '/casinos/pkm9.png', rating: 4.82, ratingCount: 365, tag: 'Fastest Payouts', bonusLabel: 'Daily Bonus', bonus: 'Daily Slot Bonus 80%', payoutTime: '1-6 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '4500++', rtp: '96.2%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['payid', 'osko', 'visa', 'mastercard', 'btc', 'eth'], playLink: 'https://pokemon9aus.co/RFAUSSIESPIN98', foundedYear: 2022, ownerCompany: 'PKM9 Interactive Pty Ltd', headquartersLocation: 'Perth, Australia', monthlyPlayers: '175,000+', minDeposit: 'A$8', minWithdrawal: 'No Limit (min. A$28)' },
+    winnie777: { name: 'Winnie777', logo: '/casinos/winnie777.png', rating: 4.80, ratingCount: 243, tag: 'Bonuses Packed', bonusLabel: 'Free Credit', bonus: 'Free Credit 365 Days', payoutTime: '15 minutes - 6 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '5500+', rtp: '96.0%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'speedpay', 'googlepay'], playLink: 'https://winnie777.vip/RFAUSSIESPIN96', foundedYear: 2019, ownerCompany: 'Winnie777 Digital Pty Ltd', headquartersLocation: 'Sydney, Australia', monthlyPlayers: '165,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$18)' },
+    micky9: { name: 'Micky9', logo: '/casinos/micky9.png', rating: 4.78, ratingCount: 332, tag: 'Mobile Friendly', bonusLabel: 'Weekly Commission', bonus: 'Weekly Commission 5%', payoutTime: 'Instant', withdrawLimit: 'A$50,000 - A$100,000', games: '5500+', rtp: '95.8%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'amopay', 'speedpay'], playLink: 'https://micky13.asia/RFAUSSIESPIN97', foundedYear: 2021, ownerCompany: 'Micky9 Entertainment Pty Ltd', headquartersLocation: 'Adelaide, Australia', monthlyPlayers: '150,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$30)' },
+    bybid9: { name: 'Bybid9', logo: '/casinos/bybid9.png', rating: 4.76, ratingCount: 421, tag: 'Premium Jackpot', bonusLabel: 'Daily Bonus', bonus: 'Daily Easy Step Free 100', payoutTime: 'Instant - 2 hours', withdrawLimit: 'A$20,000 per month', games: '5500+', rtp: '95.9%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['payid', 'osko', 'visa', 'mastercard', 'ripple', 'usdt'], playLink: 'https://bybid9.net/RFAUSSIESPINAU', foundedYear: 2020, ownerCompany: 'Bybid9 Gaming Pty Ltd', headquartersLocation: 'Melbourne, Australia', monthlyPlayers: '185,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
+    queen13: { name: 'Queen13', logo: '/casinos/queen13.png', rating: 4.75, ratingCount: 149, tag: 'Best for Pokies', bonusLabel: 'Welcome Bonus', bonus: 'Slot Welcome Bonus 50%', payoutTime: '15 minutes - 1 day', withdrawLimit: 'A$50,000 - A$100,000', games: '4000+', rtp: '95.6%', os: 'Windows, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'googlepay', 'applepay'], playLink: 'https://queen13au.com/RFAUSSIESPIN94', foundedYear: 2022, ownerCompany: 'Queen13 Interactive Pty Ltd', headquartersLocation: 'Brisbane, Australia', monthlyPlayers: '170,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
   };
 
   const buildMinWithdrawalText = (withdrawLimit: string, minWithdrawal: string) => {
@@ -1334,25 +1334,21 @@ export default function CasinoReviewPage() {
           {
             title: 'Total Bet Daily Rebate 0.9%',
             description: '0.9% daily rebate based on net total bet turnover for eligible iPay9 members.',
-            bonusCode: 'REBATE09',
             image: '/bonus-promos/ipay9/total-bet-rebate.png',
           },
           {
             title: 'Daily Easy Step Free $100',
             description: 'Complete daily steps to claim Free Credit 100 under the iPay9 app campaign.',
-            bonusCode: 'FREE100',
             image: '/bonus-promos/ipay9/free-credit-100.png',
           },
           {
             title: 'Deposit Progressive S$9-S$19',
             description: 'Daily quest promo with progressive reward tracking for qualifying deposit activity.',
-            bonusCode: 'QUEST9',
             image: '/bonus-promos/ipay9/daily-quest.png',
           },
           {
             title: 'Slot Welcome Bonus 50%',
             description: 'New member slot welcome campaign with 50% bonus and standard wagering rules.',
-            bonusCode: 'WELCOME50',
             image: '/bonus-promos/ipay9/welcome-bonus-50.png',
           },
         ]
@@ -1361,25 +1357,21 @@ export default function CasinoReviewPage() {
             {
               title: 'Slot Welcome Bonus 100%',
               description: 'Welcome slot campaign with 100% bonus value for eligible first-time members.',
-              bonusCode: 'WELCOME100',
               image: '/bonus-promos/kingbet9/slot-welcome-bonus-100.png',
             },
             {
               title: 'Slot Daily Bonus 39%',
               description: 'Daily slot bonus campaign at 39% with standard claim and wagering conditions.',
-              bonusCode: 'DAILY39',
               image: '/bonus-promos/kingbet9/slot-daily-bonus-39.png',
             },
             {
               title: 'Daily Rollover Rebate 0.9%',
               description: 'Daily 0.9% rollover rebate based on qualified turnover activity.',
-              bonusCode: 'REBATE09',
               image: '/bonus-promos/kingbet9/daily-rollover-rebate-09.png',
             },
             {
               title: 'Daily Easy Step Free AUD100',
               description: 'Complete the daily step task flow to unlock Free AUD100 campaign rewards.',
-              bonusCode: 'STEP100',
               image: '/bonus-promos/kingbet9/daily-easy-step-free-100.png',
             },
           ]
@@ -1388,25 +1380,21 @@ export default function CasinoReviewPage() {
               {
                 title: 'Total Bet Daily Rebate 0.9%',
                 description: 'Daily rebate campaign at 0.9% based on qualified total bet turnover activity.',
-                bonusCode: 'REBATE09',
                 image: '/bonus-promos/rolex9/total-bet-daily-rebate-09.png',
               },
               {
                 title: 'Free Credit 99.99',
                 description: 'Claim Free Credit 99.99 through the Rolex9 promotion flow and campaign requirements.',
-                bonusCode: 'FREE9999',
                 image: '/bonus-promos/rolex9/free-credit-9999.png',
               },
               {
                 title: 'Slot Daily Bonus 20%',
                 description: 'Recurring daily slot bonus at 20% for eligible members under promo terms.',
-                bonusCode: 'DAILY20',
                 image: '/bonus-promos/rolex9/slot-daily-bonus-20.png',
               },
               {
                 title: 'Weekly Rebate 7%',
                 description: 'Weekly rebate offer at 7% for qualified betting turnover during campaign windows.',
-                bonusCode: 'WEEK7',
                 image: '/bonus-promos/rolex9/weekly-rebate-7.png',
               },
             ]
@@ -1415,25 +1403,21 @@ export default function CasinoReviewPage() {
               {
                 title: 'Join WhatsApp 69.99 Bonus',
                 description: 'Join the WhatsApp campaign to claim the 69.99 bonus reward for eligible members.',
-                bonusCode: 'WA6999',
                 image: '/bonus-promos/mrbean9/join-whatsapp-bonus-6999.png',
               },
               {
                 title: 'Daily Easy Step Free Credit 100',
                 description: 'Complete daily easy-step tasks to unlock free credit 100 under campaign conditions.',
-                bonusCode: 'STEP100',
                 image: '/bonus-promos/mrbean9/daily-easy-step-free-100.png',
               },
               {
                 title: 'Special Welcome Bonus 200%',
                 description: 'New member special welcome package with up to 200% bonus on qualifying deposits.',
-                bonusCode: 'WELCOME200',
                 image: '/bonus-promos/mrbean9/special-welcome-bonus-200.png',
               },
               {
                 title: 'Monday Deposit Bonus 60%',
                 description: 'Boost your Monday deposit with a 60% bonus for qualified deposits during promo hours.',
-                bonusCode: 'MONDAY60',
                 image: '/bonus-promos/mrbean9/monday-deposit-bonus-60.png',
               },
             ]
@@ -1442,25 +1426,21 @@ export default function CasinoReviewPage() {
               {
                 title: 'Daily Easy Step Free Credit 100',
                 description: 'Complete daily step tasks to claim Free Credit 100 under PKM9 campaign rules.',
-                bonusCode: 'STEP100',
                 image: '/bonus-promos/pkm9/daily-easy-step-free-credit-100.png',
               },
               {
                 title: 'Every Deposit AUD10 Get Random Bonus',
                 description: 'Make qualifying deposits and receive random bonus rewards based on promo conditions.',
-                bonusCode: 'RANDOM10',
                 image: '/bonus-promos/pkm9/every-deposit-aud10-random-bonus.png',
               },
               {
                 title: 'Rollover Rebate 0.9%',
                 description: 'Rollover rebate campaign at 0.9% for eligible turnover and settled play activity.',
-                bonusCode: 'REBATE09',
                 image: '/bonus-promos/pkm9/rollover-rebate-09.png',
               },
               {
                 title: '5% Weekly Commission',
                 description: 'Weekly commission payout at 5% for qualified member activity during the promo window.',
-                bonusCode: 'WEEK5',
                 image: '/bonus-promos/pkm9/weekly-commission-5.png',
               },
             ]
@@ -1469,25 +1449,21 @@ export default function CasinoReviewPage() {
               {
                 title: 'Free Credit AUD103.33',
                 description: 'Claim the Free Credit AUD103.33 campaign reward for eligible Winnie777 members.',
-                bonusCode: 'FREE103',
                 image: '/bonus-promos/winnie777/free-credit-aud10333.png',
               },
               {
                 title: 'Daily Rollover Rebate 0.9%',
                 description: 'Daily rollover rebate offer at 0.9% based on qualified turnover activity.',
-                bonusCode: 'REBATE09',
                 image: '/bonus-promos/winnie777/daily-rollover-rebate-09.png',
               },
               {
                 title: 'Birthday Bonus',
                 description: 'Special birthday campaign reward available during eligible birthday periods.',
-                bonusCode: 'BDAY',
                 image: '/bonus-promos/winnie777/birthday-bonus.png',
               },
               {
                 title: 'Weekly Rebate 7%',
                 description: 'Weekly rebate campaign at 7% for members who meet promotion requirements.',
-                bonusCode: 'WEEK7',
                 image: '/bonus-promos/winnie777/weekly-rebate-7.png',
               },
             ]
@@ -1496,25 +1472,21 @@ export default function CasinoReviewPage() {
               {
                 title: 'Weekly Commission 5%',
                 description: 'Weekly commission campaign at 5% for qualified member turnover and settled activity.',
-                bonusCode: 'WEEK5',
                 image: '/bonus-promos/micky9/weekly-commission-5.png',
               },
               {
                 title: 'Free Credit 103.33 AUD',
                 description: 'Claim free credit 103.33 AUD through eligible campaign tasks and account criteria.',
-                bonusCode: 'FREE103',
                 image: '/bonus-promos/micky9/free-credit-10333-aud.png',
               },
               {
                 title: 'Slot Welcome Bonus 50%',
                 description: 'New member slot welcome campaign with 50% bonus under standard wagering rules.',
-                bonusCode: 'WELCOME50',
                 image: '/bonus-promos/micky9/slot-welcome-bonus-50.png',
               },
               {
                 title: 'Daily Deposit Progressive Bonus $61-$100',
                 description: 'Daily deposit progressive campaign with reward bands from $61 to $100 for eligible deposits.',
-                bonusCode: 'DAILY100',
                 image: '/bonus-promos/micky9/daily-deposit-progressive-bonus-61-100.png',
               },
             ]
@@ -1523,25 +1495,21 @@ export default function CasinoReviewPage() {
               {
                 title: 'Weekly Commission 6%',
                 description: 'Weekly commission campaign at 6% for qualified ACE96AU member turnover.',
-                bonusCode: 'WEEK6',
                 image: '/bonus-promos/ace96au/weekly-commission-6.png',
               },
               {
                 title: 'Weekly Rebate 5%',
                 description: 'Weekly rebate offer at 5% for eligible players under promotion rules.',
-                bonusCode: 'REBATE5',
                 image: '/bonus-promos/ace96au/weekly-rebate-5.png',
               },
               {
                 title: 'Welcome Bonus 50%',
                 description: 'New member welcome bonus at 50% with standard claim conditions.',
-                bonusCode: 'WELCOME50',
                 image: '/bonus-promos/ace96au/welcome-bonus-50.png',
               },
               {
                 title: 'Daily Rollover Rebate 1%',
                 description: 'Daily rollover rebate 1% promotion based on qualified betting activity.',
-                bonusCode: 'DAILY1',
                 image: '/bonus-promos/ace96au/daily-rollover-rebate-1.png',
               },
             ]
@@ -1550,25 +1518,21 @@ export default function CasinoReviewPage() {
               {
                 title: 'Weekend Deposit 30%',
                 description: 'Weekend deposit bonus campaign at 30% for qualifying Bigpay77 members.',
-                bonusCode: 'WEEKEND30',
                 image: '/bonus-promos/bigpay77/weekend-deposit-30.png',
               },
               {
                 title: 'Daily Easy Step Free $100',
                 description: 'Daily easy-step campaign reward with free 100 credit for eligible tasks.',
-                bonusCode: 'STEP100',
                 image: '/bonus-promos/bigpay77/daily-easy-step-free-100.png',
               },
               {
                 title: 'Weekly Commission 5%',
                 description: 'Weekly commission promo with 5% payout under campaign requirements.',
-                bonusCode: 'WEEK5',
                 image: '/bonus-promos/bigpay77/weekly-commission-5.png',
               },
               {
                 title: 'Daily Task Free up to S$17',
                 description: 'Daily task progression reward with free claim values up to S$17.',
-                bonusCode: 'TASK17',
                 image: '/bonus-promos/bigpay77/daily-task-17.png',
               },
             ]
@@ -1577,25 +1541,21 @@ export default function CasinoReviewPage() {
               {
                 title: 'Daily Easy Step Free 100',
                 description: 'Daily easy-step campaign with free 100 reward for qualified Me99 members.',
-                bonusCode: 'STEP100',
                 image: '/bonus-promos/me99/daily-easy-step-free-100.png',
               },
               {
                 title: 'Slot Welcome Bonus 50%',
                 description: 'New player slot welcome offer with 50% bonus under standard promotion rules.',
-                bonusCode: 'WELCOME50',
                 image: '/bonus-promos/me99/slot-welcome-bonus-50.png',
               },
               {
                 title: 'Join WhatsApp Bonus 39.99',
                 description: 'Join campaign channel flow and claim the WhatsApp bonus offer of 39.99.',
-                bonusCode: 'WA3999',
                 image: '/bonus-promos/me99/join-whatsapp-bonus-3999.png',
               },
               {
                 title: '5% Weekly Commission',
                 description: 'Weekly commission rebate at 5% for eligible member activity.',
-                bonusCode: 'WEEK5',
                 image: '/bonus-promos/me99/weekly-commission-5.png',
               },
             ]
@@ -1604,25 +1564,21 @@ export default function CasinoReviewPage() {
               {
                 title: 'Daily Total Bet 0.9%',
                 description: 'Daily total-bet rebate campaign at 0.9% for eligible Bybid9 members.',
-                bonusCode: 'BET09',
                 image: '/bonus-promos/bybid9/daily-total-bet-09.png',
               },
               {
                 title: 'Daily Easy Step Free 100',
                 description: 'Daily task flow with free 100 reward for qualified members.',
-                bonusCode: 'STEP100',
                 image: '/bonus-promos/bybid9/daily-easy-step-free-100.png',
               },
               {
                 title: 'WhatsApp Welcome Reward AUD39.99',
                 description: 'Join the WhatsApp campaign and claim reward value up to AUD39.99.',
-                bonusCode: 'WA3999',
                 image: '/bonus-promos/bybid9/whatsapp-welcome-reward-3999.png',
               },
               {
                 title: 'Premium Jackpot $5999',
                 description: 'Premium jackpot campaign featuring prize value up to $5999.',
-                bonusCode: 'JP5999',
                 image: '/bonus-promos/bybid9/premium-jackpot-5999.png',
               },
             ]
@@ -1631,25 +1587,21 @@ export default function CasinoReviewPage() {
               {
                 title: 'Weekly Commission 5%',
                 description: 'Weekly commission campaign at 5% for eligible Gucci9 member activity.',
-                bonusCode: 'WEEK5',
                 image: '/bonus-promos/gucci9/weekly-commission-5.png',
               },
               {
                 title: 'Daily Easy Step Free A$100',
                 description: 'Daily easy-step reward campaign with free 100 bonus claim flow.',
-                bonusCode: 'STEP100',
                 image: '/bonus-promos/gucci9/daily-easy-step-free-100.png',
               },
               {
                 title: 'TPA Telegram Task Free AUD',
                 description: 'Telegram task participation campaign with free TPA bonus rewards.',
-                bonusCode: 'TGFREE',
                 image: '/bonus-promos/gucci9/tpa-telegram-task-free.png',
               },
               {
                 title: 'Daily Rollover Rebate 0.3%',
                 description: 'Daily rollover rebate at 0.3% based on qualified turnover conditions.',
-                bonusCode: 'REBATE03',
                 image: '/bonus-promos/gucci9/daily-rollover-rebate-03.png',
               },
             ]
@@ -1658,33 +1610,29 @@ export default function CasinoReviewPage() {
               {
                 title: 'Weekly Deposit 100 Times $163.13',
                 description: 'Weekly deposit campaign reward with target value up to AUD163.13.',
-                bonusCode: 'W163',
                 image: '/bonus-promos/queen13/weekly-deposit-16313.png',
               },
               {
                 title: 'Daily Deposit Progressive Bonus $61-$100',
                 description: 'Daily progressive bonus range from $61 to $100 for qualifying deposits.',
-                bonusCode: 'D100',
                 image: '/bonus-promos/queen13/daily-deposit-progressive-61-100.png',
               },
               {
                 title: 'New Member Free $113',
                 description: 'New member campaign with free reward value up to AUD113.',
-                bonusCode: 'NEW113',
                 image: '/bonus-promos/queen13/new-member-free-113.png',
               },
               {
                 title: 'Easy Win Games',
                 description: 'Featured Easy Win Games campaign with slots and mini-game activities.',
-                bonusCode: 'EASYWIN',
                 image: '/bonus-promos/queen13/easy-win-games.png',
               },
             ]
         : [
-          { title: `Welcome Package at ${source.name}`, description: 'Primary signup package with balanced wagering and practical claim conditions.', bonusCode: 'WELCOME' },
-          { title: `Reload Offer`, description: 'Recurring reload promo for existing players on selected days.', bonusCode: 'RELOAD' },
-          { title: `Weekend Boost`, description: 'Weekend-only reward campaign for qualifying deposits.', bonusCode: 'WEEKEND' },
-          { title: `VIP Reward Track`, description: 'Ongoing loyalty-oriented rewards for regular activity.', bonusCode: 'VIP' },
+          { title: `Welcome Package at ${source.name}`, description: 'Primary signup package with balanced wagering and practical claim conditions.' },
+          { title: `Reload Offer`, description: 'Recurring reload promo for existing players on selected days.' },
+          { title: `Weekend Boost`, description: 'Weekend-only reward campaign for qualifying deposits.' },
+          { title: `VIP Reward Track`, description: 'Ongoing loyalty-oriented rewards for regular activity.' },
         ],
     paymentsSection: `${source.name} supports a modern set of payment channels for both deposits and withdrawals. Processing speed depends on the selected method, with instant methods generally providing the fastest turnaround.`,
     supportSection: `${source.name} provides customer support through live chat and email channels. Support quality is strongest for account, verification, and payment-related requests.`,

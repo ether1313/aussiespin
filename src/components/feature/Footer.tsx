@@ -2,19 +2,19 @@ import { MouseEvent } from 'react';
 import { Link } from 'react-router-dom';
 
 const registerLinks = [
-  "https://ipat9au.com/register/SMSRegister",
-  "https://bigpay77au.com/register/SMSRegister",
-  "https://king9aus.com/register/SMSRegister",
-  "https://mrbean9.com/register/SMSRegister",
-  "https://ace96auau.net/register",
-  "https://me99aud.com/register/SMSRegister",
-  "https://pokemon9office.net/register/SMSRegister",
-  "https://gucci9aud.vip/register/SMSRegister",
-  "https://bybid9.com/register/SMSRegister",
-  "https://queen13au.com/register/SMSRegister",
-  "https://rolex9au.com/register/SMSRegister",
-  "https://micky9.vip/register/SMSRegister",
-  "https://winnie777.net/register/SMSRegister",
+  "https://k9aus.net/RFAUSSIESPIN",
+  "https://bybid9.net/RFAUSSIESPINAU",
+  "https://bigpay77aus.com/RFAUSSIESPINN",
+  "https://ipay9.co/RFAUSSIESPINAUD",
+  "https://guccii9au.net/RFAUSSIESPIN33",
+  "https://mrbean9au.com/RFAUSSIESPIN9",
+  "https://me99office.co/RFAUSSIESPIN99",
+  "https://pokemon9aus.co/RFAUSSIESPIN98",
+  "https://micky13.asia/RFAUSSIESPIN97",
+  "https://winnie777.vip/RFAUSSIESPIN96",
+  "https://ace96au.net/RFAUSSIESPIN95",
+  "https://queen13au.com/RFAUSSIESPIN94",
+  "https://rolex9.net/RFAUSSIESPINJ",
 ];
 
 export default function Footer() {
@@ -34,12 +34,12 @@ export default function Footer() {
             <h3 className="text-sm md:text-base font-semibold mb-3 border-b border-teal-500 pb-2">High Rated Sites</h3>
             <ul className="space-y-2">
               {[
-                { label: "iPay9 Casino", href: "https://ipat9au.com/register/SMSRegister" },
-                { label: "Kingbet9 Casino", href: "https://king9aus.com/register/SMSRegister" },
-                { label: "Bigpay77 Casino", href: "https://bigpay77au.com/register/SMSRegister" },
-                { label: "Me99 Casino", href: "https://me99aud.com/register/SMSRegister" },
-                { label: "Rolex9 Casino", href: "https://rolex9au.com/register/SMSRegister" },
-                { label: "Gucci9 Casino", href: "https://gucci9aud.vip/register/SMSRegister" },
+                { label: "iPay9 Casino", href: "https://ipay9.co/RFAUSSIESPINAUD" },
+                { label: "Kingbet9 Casino", href: "https://k9aus.net/RFAUSSIESPIN" },
+                { label: "Bigpay77 Casino", href: "https://bigpay77aus.com/RFAUSSIESPINN" },
+                { label: "Me99 Casino", href: "https://me99office.co/RFAUSSIESPIN99" },
+                { label: "Rolex9 Casino", href: "https://rolex9.net/RFAUSSIESPINJ" },
+                { label: "Gucci9 Casino", href: "https://guccii9au.net/RFAUSSIESPIN33" },
               ].map((item) => (
                 <li key={item.href}>
                   <Link to={item.href} className="text-gray-300 hover:text-teal-400 transition-colors text-xs md:text-sm">
@@ -73,11 +73,11 @@ export default function Footer() {
             <h3 className="text-sm md:text-base font-semibold mb-3 border-b border-teal-500 pb-2">Bonus Offers</h3>
             <ul className="space-y-2">
               {[
-                { label: "PKM9 Casino No Deposit", href: "https://pokemon9office.net/register/SMSRegister" },
-                { label: "MrBean9 Casino No Deposit", href: "https://mrbean9.com/register/SMSRegister" },
-                { label: "Winnie777 Casino No Deposit", href: "https://winnie777.net/register/SMSRegister" },
-                { label: "Micky9 Casino No Deposit", href: "https://micky9.vip/register/SMSRegister" },
-                { label: "Bybid9 Casino Bonus Codes", href: "https://bybid9.com/register/SMSRegister" },
+                { label: "PKM9 Casino No Deposit", href: "https://pokemon9aus.co/RFAUSSIESPIN98" },
+                { label: "MrBean9 Casino No Deposit", href: "https://mrbean9au.com/RFAUSSIESPIN9" },
+                { label: "Winnie777 Casino No Deposit", href: "https://winnie777.vip/RFAUSSIESPIN96" },
+                { label: "Micky9 Casino No Deposit", href: "https://micky13.asia/RFAUSSIESPIN97" },
+                { label: "Bybid9 Casino Bonus Codes", href: "https://bybid9.net/RFAUSSIESPINAU" },
               ].map((item) => (
                 <li key={item.href}>
                   <Link to={item.href} className="text-gray-300 hover:text-teal-400 transition-colors text-xs md:text-sm">

@@ -2,19 +2,19 @@ import { MouseEvent } from 'react';
 import Sidebar from './Sidebar';
 
 const registerLinks = [
-  "https://ipat9au.com/register/SMSRegister",
-  "https://bigpay77au.com/register/SMSRegister",
-  "https://king9aus.com/register/SMSRegister",
-  "https://mrbean9.com/register/SMSRegister",
-  "https://ace96auau.net/register",
-  "https://me99aud.com/register/SMSRegister",
-  "https://pokemon9office.net/register/SMSRegister",
-  "https://gucci9aud.vip/register/SMSRegister",
-  "https://bybid9.com/register/SMSRegister",
-  "https://queen13au.com/register/SMSRegister",
-  "https://rolex9au.com/register/SMSRegister",
-  "https://micky9.vip/register/SMSRegister",
-  "https://winnie777.net/register/SMSRegister",
+  "https://k9aus.net/RFAUSSIESPIN",
+  "https://bybid9.net/RFAUSSIESPINAU",
+  "https://bigpay77aus.com/RFAUSSIESPINN",
+  "https://ipay9.co/RFAUSSIESPINAUD",
+  "https://guccii9au.net/RFAUSSIESPIN33",
+  "https://mrbean9au.com/RFAUSSIESPIN9",
+  "https://me99office.co/RFAUSSIESPIN99",
+  "https://pokemon9aus.co/RFAUSSIESPIN98",
+  "https://micky13.asia/RFAUSSIESPIN97",
+  "https://winnie777.vip/RFAUSSIESPIN96",
+  "https://ace96au.net/RFAUSSIESPIN95",
+  "https://queen13au.com/RFAUSSIESPIN94",
+  "https://rolex9.net/RFAUSSIESPINJ",
 ];
 
 export default function EditorialSection() {
