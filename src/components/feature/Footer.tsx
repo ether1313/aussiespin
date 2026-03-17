@@ -108,7 +108,7 @@ export default function Footer() {
 
         {/* Disclaimer */}
         <div className="text-xs text-gray-400 mb-6 pt-6 border-t border-gray-700 leading-relaxed">
-          Aussie Spin does not offer any gambling services itself. The site provides reviews and information on gambling services. Our website contains affiliate links. We may receive a commission at no extra cost to you. The affiliate income helps support the site and allows us to continue offering high-quality content. Our content is intended solely for individuals aged 18+. Please gamble responsibly.
+          AussieSpin does not offer any gambling services itself. The site provides reviews and information on gambling services. Our website contains affiliate links. We may receive a commission at no extra cost to you. The affiliate income helps support the site and allows us to continue offering high-quality content. Our content is intended solely for individuals aged 18+. Please gamble responsibly.
         </div>
 
         {/* Logo + Trust badges */}

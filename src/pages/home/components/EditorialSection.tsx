@@ -174,7 +174,7 @@ export default function EditorialSection() {
 
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">What Our Casino Reviews Demonstrate</h3>
             <p className="text-sm text-gray-600 mb-4 leading-relaxed">
-              Every casino review on Aussie Spin is written by experienced gambling experts who have personally tested each platform. Our review process involves creating real accounts, making actual deposits, testing the games, claiming bonuses, and attempting withdrawals. We document every step of the process to give you an honest, unbiased assessment.
+              Every casino review on AussieSpin is written by experienced gambling experts who have personally tested each platform. Our review process involves creating real accounts, making actual deposits, testing the games, claiming bonuses, and attempting withdrawals. We document every step of the process to give you an honest, unbiased assessment.
             </p>
 
             {/* FAQ */}
@@ -182,7 +182,7 @@ export default function EditorialSection() {
               {[
                 { q: "Is online gambling legal in Australia?", a: "Online gambling is regulated in Australia under the Interactive Gambling Act 2001. While offshore casinos are technically prohibited from offering services to Australians, many players access international sites. Always gamble responsibly and be aware of the legal landscape in your jurisdiction." },
                 { q: "What is the best online casino for Australians?", a: "The best online casino depends on your personal preferences. Our top-rated casinos offer a combination of generous bonuses, a wide game selection, fast payouts, and excellent customer support. Check our full casino reviews for detailed comparisons." },
-                { q: "Can I play pokies for free?", a: "Yes! Aussie Spin offers free demo versions of over 1,000 pokies. You can play without registering or depositing any money. This is a great way to try new games and develop strategies before playing for real money." },
+                { q: "Can I play pokies for free?", a: "Yes! AussieSpin offers free demo versions of over 1,000 pokies. You can play without registering or depositing any money. This is a great way to try new games and develop strategies before playing for real money." },
                 { q: "How do I claim a no deposit bonus?", a: "No deposit bonuses are usually awarded automatically upon registration, or you may need to enter a bonus code. Check the specific terms for each offer on our bonus pages. Remember to read the wagering requirements before claiming." },
               ].map((faq, i) => (
                 <details key={i} className="border border-gray-200 rounded-lg overflow-hidden">

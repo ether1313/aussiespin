@@ -28,7 +28,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
       <div className="container mx-auto px-4 py-8 md:py-10 relative z-10">
         <div className="max-w-3xl">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 leading-tight">
-            Aussie Spin: Top Australian Online Pokies &amp; Casino Reviewer
+            AussieSpin: Top Australian Online Pokies &amp; Casino Reviewer
           </h1>
           <p className="text-xs md:text-sm text-gray-300 mb-5 leading-relaxed max-w-2xl">
             Aussie Spin invites Aussie visitors to explore hundreds of online pokies reviews prepared by our expert team. Test their demos and scroll through the lists of reliable online casinos from top providers. Educational guides, bonus analysis articles and free communication space Talks are waiting for you here!

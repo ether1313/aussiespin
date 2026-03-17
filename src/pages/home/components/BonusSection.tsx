@@ -138,7 +138,7 @@ export default function BonusSection() {
   return (
     <section id="exclusive-aussie-spin-promos" className="bg-gray-50 py-8 md:py-10">
       <div className="container mx-auto px-4">
-        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-5">Exclusive Aussie Spin Promos</h2>
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-5">Exclusive AussieSpin Promos</h2>
 
         <div className="space-y-3">
           {visibleBonuses.map((bonus) => (

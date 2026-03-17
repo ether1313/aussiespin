@@ -52,7 +52,7 @@ export default function Header() {
           <a href='/' className="flex items-center flex-shrink-0 mr-4">
             <img
               src="/logo.png"
-              alt="Aussie Spin"
+              alt="AussieSpin"
               className="h-12 w-auto"
             />
           </a>
