@@ -26,9 +26,9 @@ interface Casino {
 const paymentMethodIcons = [
   { key: 'visa', label: 'Visa', src: '/payment-methods/visa.png' },
   { key: 'mastercard', label: 'Mastercard', src: '/payment-methods/mastercard.png' },
-  { key: 'payid', label: 'PayID', src: '/payment-methods/payid.png' },
-  { key: 'apple-pay', label: 'Apple Pay', src: '/payment-methods/apple.png' },
   { key: 'google-pay', label: 'Google Pay', src: '/payment-methods/google.png' },
+  { key: 'apple-pay', label: 'Apple Pay', src: '/payment-methods/apple.png' },
+  { key: 'payid', label: 'PayID', src: '/payment-methods/payid.png' },
   { key: 'osko', label: 'Osko', src: '/payment-methods/osko.png' },
   { key: 'amopay', label: 'AmoPay', src: '/payment-methods/amopay.png' },
   { key: 'speedpay', label: 'SpeedPay', src: '/payment-methods/speedpay.png' },
@@ -53,7 +53,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
       games: "4000+", os: "Windows, Mac, iOS, Android", rtp: "96.4%",
       currencies: "AUD",
       languages: "English",
-      payments: ["visa", "mastercard", "payid", "osko", "googlepay", "applepay"],
+      payments: ["visa", "mastercard", "google-pay", "apple-pay", "payid", "osko", "amopay", "speedpay"],
       reviewLink: "/ace96au", playLink: "https://ace96au.net/RFAUSSIESPIN95",
       tag: "New Launch"
     },
@@ -66,7 +66,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
       games: "4500++", os: "Windows, Mac, Android, iOS", rtp: "95.8%",
       currencies: "AUD",
       languages: "English",
-      payments: ["applepay", "googlepay", "visa", "mastercard", "btc"],
+      payments: ["visa", "mastercard", "google-pay", "apple-pay", "payid", "osko", "amopay", "speedpay"],
       reviewLink: "/ipay9", playLink: "https://ipay9.co/RFAUSSIESPINAUD",
       tag: "Top Rated"
     },
@@ -79,7 +79,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
       games: "4000+", os: "Android, iOS, Web", rtp: "95.9%",
       currencies: "AUD",
       languages: "English",
-      payments: ["payid", "visa", "mastercard", "ripple", "usdt"],
+      payments: ["visa", "mastercard", "google-pay", "apple-pay", "payid", "osko", "amopay", "speedpay"],
       reviewLink: "/kingbet9", playLink: "https://k9aus.net/RFAUSSIESPIN",
       tag: "Editor's Choice"
     },
@@ -92,7 +92,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
       games: "5500+", os: "Android, iOS, Web", rtp: "95.7%",
       currencies: "AUD",
       languages: "English",
-      payments: ["payid", "osko", "speedpay", "amopay", "visa"],
+      payments: ["visa", "mastercard", "google-pay", "apple-pay", "payid", "osko", "amopay", "speedpay"],
       reviewLink: "/bigpay77", playLink: "https://bigpay77aus.com/RFAUSSIESPINN",
       tag: "Most Popular"
     },
@@ -105,7 +105,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
       games: "4500++", os: "Android, iOS, Web", rtp: "96.1%",
       currencies: "AUD",
       languages: "English",
-      payments: ["visa", "mastercard", "payid", "speedpay", "amopay"],
+      payments: ["visa", "mastercard", "google-pay", "apple-pay", "payid", "osko", "amopay", "speedpay"],
       reviewLink: "/me99", playLink: "https://me99office.co/RFAUSSIESPIN99",
       tag: "Player's Favorite"
     },
@@ -118,7 +118,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
       games: "4500++", os: "Android, iOS", rtp: "95.6%",
       currencies: "AUD",
       languages: "English",
-      payments: ["payid", "osko", "visa", "mastercard"],
+      payments: ["visa", "mastercard", "google-pay", "apple-pay", "payid", "osko", "amopay", "speedpay"],
       reviewLink: "/rolex9", playLink: "https://rolex9.net/RFAUSSIESPINJ",
       tag: "High Roller Pick"
     },
@@ -131,7 +131,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
       games: "4000+", os: "Android, iOS, Windows", rtp: "96.0%",
       currencies: "AUD",
       languages: "English",
-      payments: ["visa", "mastercard", "applepay", "googlepay", "speedpay"],
+      payments: ["visa", "mastercard", "google-pay", "apple-pay", "payid", "osko", "amopay", "speedpay"],
       reviewLink: "/gucci9", playLink: "https://guccii9au.net/RFAUSSIESPIN33",
       tag: "High Rebates"
     },
@@ -144,7 +144,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
       games: "4000+", os: "Windows, Mac, Android", rtp: "95.7%",
       currencies: "AUD",
       languages: "English",
-      payments: ["visa", "mastercard", "googlepay", "applepay", "osko"],
+      payments: ["visa", "mastercard", "google-pay", "apple-pay", "payid", "osko", "amopay", "speedpay"],
       reviewLink: "/mrbean9", playLink: "https://mrbean9au.com/RFAUSSIESPIN9",
       tag: "Best for Pokies"
     },
@@ -157,7 +157,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
       games: "4500++", os: "Windows, Mac, Android, iOS", rtp: "96.2%",
       currencies: "AUD",
       languages: "English",
-      payments: ["payid", "osko", "visa", "mastercard", "btc", "eth"],
+      payments: ["visa", "mastercard", "google-pay", "apple-pay", "payid", "osko", "amopay", "speedpay"],
       reviewLink: "/pkm9", playLink: "https://pokemon9aus.co/RFAUSSIESPIN98",
       tag: "Fastest Payouts"
     },
@@ -170,7 +170,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
       games: "5500+", os: "Windows, Mac, Android, iOS", rtp: "96.0%",
       currencies: "AUD",
       languages: "English",
-      payments: ["visa", "mastercard", "payid", "speedpay", "googlepay"],
+      payments: ["visa", "mastercard", "google-pay", "apple-pay", "payid", "osko", "amopay", "speedpay"],
       reviewLink: "/winnie777", playLink: "https://winnie777.vip/RFAUSSIESPIN96",
       tag: "Bonuses Packed"
     },
@@ -183,7 +183,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
       games: "5500+", os: "Android, iOS, Web", rtp: "95.8%",
       currencies: "AUD",
       languages: "English",
-      payments: ["visa", "mastercard", "payid", "amopay", "speedpay"],
+      payments: ["visa", "mastercard", "google-pay", "apple-pay", "payid", "osko", "amopay", "speedpay"],
       reviewLink: "/micky9", playLink: "https://micky13.asia/RFAUSSIESPIN97",
       tag: "Mobile Friendly"
     },
@@ -196,7 +196,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
       games: "5500+", os: "Windows, Mac, Android, iOS", rtp: "95.9%",
       currencies: "AUD",
       languages: "English",
-      payments: ["payid", "osko", "visa", "mastercard", "ripple", "usdt"],
+      payments: ["visa", "mastercard", "google-pay", "apple-pay", "payid", "osko", "amopay", "speedpay"],
       reviewLink: "/bybid9", playLink: "https://bybid9.net/RFAUSSIESPINAU",
       tag: "Premium Jackpot"
     },
@@ -209,7 +209,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
       games: "4000+", os: "Windows, Android, iOS", rtp: "95.6%",
       currencies: "AUD",
       languages: "English",
-      payments: ["visa", "mastercard", "payid", "googlepay", "applepay"],
+      payments: ["visa", "mastercard", "google-pay", "apple-pay", "payid", "osko", "amopay", "speedpay"],
       reviewLink: "/queen13", playLink: "https://queen13au.com/RFAUSSIESPIN94",
       tag: "Best for Pokies"
     }

@@ -235,25 +235,11 @@ function FaqSection({ faqs }: { faqs: FaqItem[] }) {
 }
 
 interface ReviewsSectionProps {
-  casinoName: string;
   reviews: Review[];
   trustpilotLink: string;
 }
 
-function ReviewsSection({ casinoName, reviews: initialReviews, trustpilotLink }: ReviewsSectionProps) {
-  const [reviews, setReviews] = useState<Review[]>(initialReviews);
-  const [showForm, setShowForm] = useState(false);
-  const [formData, setFormData] = useState({
-    userName: '',
-    rating: 0,
-    comment: '',
-    cashout: 0,
-    bonuses: 0,
-    security: 0,
-    software: 0,
-    support: 0,
-  });
-  const [errors, setErrors] = useState<Record<string, string>>({});
+function ReviewsSection({ reviews, trustpilotLink }: ReviewsSectionProps) {
 
   // Calculate average ratings
   const avgRatings = {
@@ -265,62 +251,13 @@ function ReviewsSection({ casinoName, reviews: initialReviews, trustpilotLink }:
     support: reviews.reduce((sum, r) => sum + r.ratings.support, 0) / reviews.length,
   };
 
-  const validateForm = () => {
-    const newErrors: Record<string, string> = {};
-    if (!formData.userName.trim()) newErrors.userName = 'Please enter your name';
-    if (formData.rating === 0) newErrors.rating = 'Please select a rating';
-    if (formData.comment.trim().length < 20) newErrors.comment = 'Review must be at least 20 characters';
-    if (formData.cashout === 0) newErrors.cashout = 'Please rate cashout speed';
-    if (formData.bonuses === 0) newErrors.bonuses = 'Please rate bonuses';
-    if (formData.security === 0) newErrors.security = 'Please rate security';
-    if (formData.software === 0) newErrors.software = 'Please rate software';
-    if (formData.support === 0) newErrors.support = 'Please rate support';
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!validateForm()) return;
-
-    const newReview: Review = {
-      id: Date.now(),
-      userName: formData.userName,
-      rating: formData.rating,
-      date: new Date().toLocaleDateString('en-AU', { year: 'numeric', month: 'short', day: 'numeric' }),
-      comment: formData.comment,
-      ratings: {
-        cashout: formData.cashout,
-        bonuses: formData.bonuses,
-        security: formData.security,
-        software: formData.software,
-        support: formData.support,
-      },
-    };
-
-    setReviews([newReview, ...reviews]);
-    setFormData({
-      userName: '',
-      rating: 0,
-      comment: '',
-      cashout: 0,
-      bonuses: 0,
-      security: 0,
-      software: 0,
-      support: 0,
-    });
-    setErrors({});
-    setShowForm(false);
-  };
-
-  const renderStars = (rating: number, interactive = false, onChange?: (rating: number) => void) => {
+  const renderStars = (rating: number) => {
     return (
       <div className="flex items-center gap-0.5">
         {[1, 2, 3, 4, 5].map((star) => (
           <i
             key={star}
-            className={`${star <= rating ? 'fa fa-star' : 'far fa-star'} text-amber-400 ${interactive ? 'cursor-pointer hover:scale-110 transition-transform' : ''}`}
-            onClick={() => interactive && onChange && onChange(star)}
+            className={`${star <= rating ? 'fa fa-star' : 'far fa-star'} text-amber-400`}
           ></i>
         ))}
       </div>
@@ -375,125 +312,17 @@ function ReviewsSection({ casinoName, reviews: initialReviews, trustpilotLink }:
         </div>
       </div>
 
-      {/* Write Review Button */}
-      {!showForm && (
-        <div className="mb-6">
-          <a
-            href={trustpilotLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full md:w-auto px-6 py-3 bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-lg transition-colors inline-flex items-center justify-center gap-2 cursor-pointer whitespace-nowrap"
-          >
-            <i className="ri-edit-line"></i>
-            Write a Review
-          </a>
-        </div>
-      )}
-
-      {/* Write Review Form */}
-      {showForm && (
-        <div className="bg-white border border-gray-200 rounded-lg p-6 mb-6">
-          <div className="flex items-center justify-between mb-4">
-            <h3 className="text-lg font-bold text-gray-900">Write Your Review</h3>
-            <button
-              onClick={() => {
-                setShowForm(false);
-                setErrors({});
-              }}
-              className="text-gray-400 hover:text-gray-600 cursor-pointer"
-            >
-              <i className="ri-close-line text-xl"></i>
-            </button>
-          </div>
-
-          <form onSubmit={handleSubmit} className="space-y-4">
-            {/* Name */}
-            <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-2">Your Name *</label>
-              <input
-                type="text"
-                value={formData.userName}
-                onChange={(e) => setFormData({ ...formData, userName: e.target.value })}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-teal-500"
-                placeholder="Enter your name"
-              />
-              {errors.userName && <p className="text-xs text-red-500 mt-1">{errors.userName}</p>}
-            </div>
-
-            {/* Overall Rating */}
-            <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-2">Overall Rating *</label>
-              {renderStars(formData.rating, true, (rating) => setFormData({ ...formData, rating }))}
-              {errors.rating && <p className="text-xs text-red-500 mt-1">{errors.rating}</p>}
-            </div>
-
-            {/* Detailed Ratings */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <label className="block text-xs font-semibold text-gray-700 mb-1">Cashout Speed *</label>
-                {renderStars(formData.cashout, true, (rating) => setFormData({ ...formData, cashout: rating }))}
-                {errors.cashout && <p className="text-xs text-red-500 mt-1">{errors.cashout}</p>}
-              </div>
-              <div>
-                <label className="block text-xs font-semibold text-gray-700 mb-1">Bonuses *</label>
-                {renderStars(formData.bonuses, true, (rating) => setFormData({ ...formData, bonuses: rating }))}
-                {errors.bonuses && <p className="text-xs text-red-500 mt-1">{errors.bonuses}</p>}
-              </div>
-              <div>
-                <label className="block text-xs font-semibold text-gray-700 mb-1">Security *</label>
-                {renderStars(formData.security, true, (rating) => setFormData({ ...formData, security: rating }))}
-                {errors.security && <p className="text-xs text-red-500 mt-1">{errors.security}</p>}
-              </div>
-              <div>
-                <label className="block text-xs font-semibold text-gray-700 mb-1">Software *</label>
-                {renderStars(formData.software, true, (rating) => setFormData({ ...formData, software: rating }))}
-                {errors.software && <p className="text-xs text-red-500 mt-1">{errors.software}</p>}
-              </div>
-              <div className="md:col-span-2">
-                <label className="block text-xs font-semibold text-gray-700 mb-1">Support *</label>
-                {renderStars(formData.support, true, (rating) => setFormData({ ...formData, support: rating }))}
-                {errors.support && <p className="text-xs text-red-500 mt-1">{errors.support}</p>}
-              </div>
-            </div>
-
-            {/* Comment */}
-            <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-2">Your Review * (min. 20 characters)</label>
-              <textarea
-                value={formData.comment}
-                onChange={(e) => setFormData({ ...formData, comment: e.target.value })}
-                rows={5}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-teal-500 resize-none"
-                placeholder={`Share your experience with ${casinoName}...`}
-              ></textarea>
-              <div className="flex items-center justify-between mt-1">
-                {errors.comment && <p className="text-xs text-red-500">{errors.comment}</p>}
-                <p className="text-xs text-gray-500 ml-auto">{formData.comment.length} characters</p>
-              </div>
-            </div>
-
-            {/* Submit Buttons */}
-            <div className="flex gap-3 pt-2">
-              <button
-                type="submit"
-                className="px-6 py-2.5 bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-lg transition-colors cursor-pointer whitespace-nowrap"
-              >
-                Submit Review
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  setShowForm(false);
-                  setErrors({});
-                }}
-                className="px-6 py-2.5 bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium rounded-lg transition-colors cursor-pointer whitespace-nowrap"
-              >
-                Cancel
-              </button>
-            </div>
-          </form>
-        </div>
-      )}
+      <div className="mb-6">
+        <a
+          href={trustpilotLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full md:w-auto px-6 py-3 bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-lg transition-colors inline-flex items-center justify-center gap-2 cursor-pointer whitespace-nowrap"
+        >
+          <i className="ri-edit-line"></i>
+          Write a Review
+        </a>
+      </div>
 
       {/* Reviews List */}
       <div className="space-y-4">
@@ -750,9 +579,9 @@ const latestBonusesSidebar = [
 const reviewPaymentMethodIcons = [
   { key: 'visa', label: 'Visa', src: '/payment-methods/visa.png' },
   { key: 'mastercard', label: 'Mastercard', src: '/payment-methods/mastercard.png' },
-  { key: 'payid', label: 'PayID', src: '/payment-methods/payid.png' },
   { key: 'googlepay', label: 'G Pay', src: '/payment-methods/google.png' },
   { key: 'applepay', label: 'Apple Pay', src: '/payment-methods/apple.png' },
+  { key: 'payid', label: 'PayID', src: '/payment-methods/payid.png' },
   { key: 'osko', label: 'Osko', src: '/payment-methods/osko.png' },
   { key: 'amopay', label: 'AmoPay', src: '/payment-methods/amopay.png' },
   { key: 'speedpay', label: 'SpeedPay', src: '/payment-methods/speedpay.png' },
@@ -1893,7 +1722,6 @@ export default function CasinoReviewPage() {
               </h2>
               <div className="w-12 h-1 bg-teal-500 rounded mb-5"></div>
               <ReviewsSection
-                casinoName={casino.name}
                 reviews={casino.reviews}
                 trustpilotLink={casino.trustpilotLink ?? getTrustpilotLinkBySlug(casino.slug)}
               />
