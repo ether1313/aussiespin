@@ -19,7 +19,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
       <div className="absolute inset-0 pointer-events-none">
         <img
           src="/hero-wallpaper.png"
-          alt=""
+          alt="Hero Wallpaper"
           className="w-full h-full object-cover"
         />
       </div>
@@ -31,7 +31,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
             AussieSpin: Top Australian Online Pokies &amp; Casino Reviewer
           </h1>
           <p className="text-xs md:text-sm text-gray-300 mb-5 leading-relaxed max-w-2xl">
-            Aussie Spin invites Aussie visitors to explore hundreds of online pokies reviews prepared by our expert team. Test their demos and scroll through the lists of reliable online casinos from top providers. Educational guides, bonus analysis articles and free communication space Talks are waiting for you here!
+            AussieSpin invites Aussie visitors to explore hundreds of online pokies reviews prepared by our expert team. Test their demos and scroll through the lists of reliable online casinos from top providers. Educational guides, bonus analysis articles and free communication space Talks are waiting for you here!
           </p>
 
           {/* Quick access cards — 2 cols on mobile, 3 on sm, 5 on md+ */}

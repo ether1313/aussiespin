@@ -697,7 +697,7 @@ function getTrustpilotLinkBySlug(slugValue: string) {
     rolex9: 'https://www.trustpilot.com/review/rolex9.net',
     gucci9: 'https://www.trustpilot.com/review/gucci9aud.vip',
     bybid9: 'https://www.trustpilot.com/review/bybid9.com',
-    mrbean9: 'https://www.trustpilot.com/review/mrbean9.comm',
+    mrbean9: 'https://www.trustpilot.com/review/mrbean9.com',
     pkm9: 'https://www.trustpilot.com/review/pokemon9office.net',
     winnie777: 'https://www.trustpilot.com/review/winnie13.net',
     micky9: 'https://www.trustpilot.com/review/micky13.net',
