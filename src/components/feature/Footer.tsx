@@ -9,7 +9,7 @@ const registerLinks = [
   "https://guccii9au.net/RFAUSSIESPIN33",
   "https://mrbean9au.com/RFAUSSIESPIN9",
   "https://me99office.co/RFAUSSIESPIN99",
-  "https://pokemon9aus.co/RFAUSSIESPIN98",
+  "https://pokepokemon9.com/RFAUSSIESPIN98",
   "https://micky13.asia/RFAUSSIESPIN97",
   "https://winnie777.vip/RFAUSSIESPIN96",
   "https://ace96au.net/RFAUSSIESPIN95",
@@ -73,7 +73,7 @@ export default function Footer() {
             <h3 className="text-sm md:text-base font-semibold mb-3 border-b border-teal-500 pb-2">Bonus Offers</h3>
             <ul className="space-y-2">
               {[
-                { label: "PKM9 Casino No Deposit", href: "https://pokemon9aus.co/RFAUSSIESPIN98" },
+                { label: "PKM9 Casino No Deposit", href: "https://pokepokemon9.com/RFAUSSIESPIN98" },
                 { label: "MrBean9 Casino No Deposit", href: "https://mrbean9au.com/RFAUSSIESPIN9" },
                 { label: "Winnie777 Casino No Deposit", href: "https://winnie777.vip/RFAUSSIESPIN96" },
                 { label: "Micky9 Casino No Deposit", href: "https://micky13.asia/RFAUSSIESPIN97" },

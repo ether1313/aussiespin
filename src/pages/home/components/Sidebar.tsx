@@ -80,7 +80,7 @@ const topCasinos = [
     rating: 4.82,
     bonus: "Download App Get $15 Free",
     reviewLink: "/pkm9",
-    playLink: "https://pokemon9aus.co/RFAUSSIESPIN98",
+    playLink: "https://pokepokemon9.com/RFAUSSIESPIN98",
     tag: "Fastest Payouts",
   },
   {
@@ -183,7 +183,7 @@ const latestBonuses = [
     logo: "/casinos/pkm9.png",
     title: "Slot Unlimited Bonus 50%",
     code: "RFAUSSIESPIN98",
-    link: "https://pokemon9aus.co/RFAUSSIESPIN98",
+    link: "https://pokepokemon9.com/RFAUSSIESPIN98",
   },
   {
     casino: "Winnie777 Casino",

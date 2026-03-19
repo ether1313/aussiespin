@@ -80,7 +80,7 @@ const bonuses = [
     title: "Slot Unlimited Bonus 50%",
     description: "One-time member slot bonus with AUD 50 minimum deposit, rollover conditions, and game eligibility limits.",
     code: "RFAUSSIESPIN98",
-    link: "https://pokemon9aus.co/RFAUSSIESPIN98"
+    link: "https://pokepokemon9.com/RFAUSSIESPIN98"
   },
   {
     id: 10,

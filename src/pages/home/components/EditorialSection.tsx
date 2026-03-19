@@ -9,7 +9,7 @@ const registerLinks = [
   "https://guccii9au.net/RFAUSSIESPIN33",
   "https://mrbean9au.com/RFAUSSIESPIN9",
   "https://me99office.co/RFAUSSIESPIN99",
-  "https://pokemon9aus.co/RFAUSSIESPIN98",
+  "https://pokepokemon9.com/RFAUSSIESPIN98",
   "https://micky13.asia/RFAUSSIESPIN97",
   "https://winnie777.vip/RFAUSSIESPIN96",
   "https://ace96au.net/RFAUSSIESPIN95",

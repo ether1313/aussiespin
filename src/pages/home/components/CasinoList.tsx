@@ -158,7 +158,7 @@ export default function CasinoList({ searchQuery }: CasinoListProps) {
       currencies: "AUD",
       languages: "English",
       payments: ["visa", "mastercard", "google-pay", "apple-pay", "payid", "osko", "amopay", "speedpay"],
-      reviewLink: "/pkm9", playLink: "https://pokemon9aus.co/RFAUSSIESPIN98",
+      reviewLink: "/pkm9", playLink: "https://pokepokemon9.com/RFAUSSIESPIN98",
       tag: "Fastest Payouts"
     },
     {
