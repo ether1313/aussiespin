@@ -384,6 +384,13 @@ const allCasinosMini: CasinoMiniCard[] = [
     playLink: 'https://ipay9.co/RFAUSSIESPINAUD',
   },
   {
+    slug: 'mrboom9',
+    name: 'MrBoom9',
+    logo: '/casinos/mrboom9.png',
+    rating: 4.97,
+    playLink: 'https://mrboom9.com/RFAUSSIESPINNNN',
+  },
+  {
     slug: 'kingbet9',
     name: 'Kingbet9',
     logo: '/casinos/kingbet9.png',
@@ -477,6 +484,14 @@ const latestBonusesSidebar = [
     title: 'Weekly Commission 7%',
     code: null as string | null,
     link: 'https://ipay9.co/RFAUSSIESPINAUD',
+  },
+  {
+    slug: 'mrboom9',
+    casino: 'MrBoom9 Casino',
+    logo: '/casinos/mrboom9.png',
+    title: 'Register Free Credit $99.99',
+    code: null as string | null,
+    link: 'https://mrboom9.com/RFAUSSIESPINNNN',
   },
   {
     slug: 'kingbet9',
@@ -690,6 +705,7 @@ function generateTemplateReviews(slugValue: string, casinoName: string, baseRati
 function getTrustpilotLinkBySlug(slugValue: string) {
   const trustpilotBySlug: Record<string, string> = {
     ace96au: 'https://www.trustpilot.com/review/ace96au.com',
+    mrboom9: 'https://www.trustpilot.com/review/mrboom9.com',
     ipay9: 'https://www.trustpilot.com/review/ipay9aud.com',
     kingbet9: 'https://www.trustpilot.com/review/kingbet9aus.com',
     bigpay77: 'https://www.trustpilot.com/review/bigpay77.net',
@@ -735,6 +751,7 @@ function ReviewSidebar({ currentSlug }: { currentSlug: string }) {
 
   const topPickMetaBySlug: Record<string, { tag?: string; bonus: string }> = {
     ace96au: { tag: "New Launch", bonus: "100% VVIP Bonus" },
+    mrboom9: { tag: "New Launch", bonus: "Register Free Credit $99.99" },
     ipay9: { tag: "Top Rated", bonus: "Weekly Commission 7%" },
     kingbet9: { tag: "Editor's Choice", bonus: "Unlimited Random Bonus" },
     bigpay77: { tag: "Most Popular", bonus: "Welcome Bonus 80%" },
@@ -1101,19 +1118,20 @@ export default function CasinoReviewPage() {
     minDeposit: string;
     minWithdrawal: string;
   }> = {
-    ace96au: { name: 'Ace96au', logo: '/casinos/ace96au.png', rating: 4.98, ratingCount: 512, tag: 'New Launch', bonusLabel: 'VIP Bonus', bonus: '100% VVIP Bonus', payoutTime: 'Instant', withdrawLimit: 'A$50,000 - A$100,000', games: '4000+', rtp: '96.4%', os: 'Windows, Mac, iOS, Android', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'osko', 'googlepay', 'applepay'], playLink: 'https://ace96au.net/RFAUSSIESPIN95', foundedYear: 2020, ownerCompany: 'ACE96AU Entertainment Pty Ltd', headquartersLocation: 'Sydney, Australia', monthlyPlayers: '210,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
-    ipay9: { name: 'iPay9', logo: '/casinos/ipay9.png', rating: 4.96, ratingCount: 188, tag: 'Top Rated', bonusLabel: 'Weekly Commission', bonus: 'Weekly Commission 7%', payoutTime: 'Instant - 2 hours', withdrawLimit: 'A$300,000', games: '4500++', rtp: '95.8%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['applepay', 'googlepay', 'visa', 'mastercard', 'payid', 'osko', 'crypto'], playLink: 'https://ipay9.co/RFAUSSIESPINAUD', foundedYear: 2021, ownerCompany: 'iPay9 Entertainment Pty Ltd', headquartersLocation: 'Melbourne, Australia', monthlyPlayers: '245,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
-    kingbet9: { name: 'Kingbet9', logo: '/casinos/kingbet9.png', rating: 4.94, ratingCount: 219, tag: "Editor's Choice", bonusLabel: 'Daily Bonus', bonus: 'Unlimited Random Bonus', payoutTime: '1-3 hours', withdrawLimit: 'A$200,000', games: '4000+', rtp: '95.9%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['payid', 'visa', 'mastercard', 'ripple', 'usdt'], playLink: 'https://k9aus.net/RFAUSSIESPIN', foundedYear: 2020, ownerCompany: 'Kingbet9 Gaming Pty Ltd', headquartersLocation: 'Brisbane, Australia', monthlyPlayers: '230,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
-    bigpay77: { name: 'Bigpay77', logo: '/casinos/bigpay77.png', rating: 4.92, ratingCount: 167, tag: 'Most Popular', bonusLabel: 'Welcome Bonus', bonus: 'Welcome Bonus 80%', payoutTime: '1-6 hours', withdrawLimit: 'A$200,000', games: '5500+', rtp: '95.7%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['payid', 'osko', 'speedpay', 'amopay', 'visa'], playLink: 'https://bigpay77aus.com/RFAUSSIESPINN', foundedYear: 2019, ownerCompany: 'Bigpay77 Entertainment Pty Ltd', headquartersLocation: 'Perth, Australia', monthlyPlayers: '220,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
-    me99: { name: 'Me99', logo: '/casinos/me99.png', rating: 4.90, ratingCount: 468, tag: "Player's Favorite", bonusLabel: 'Daily Rebate', bonus: '5% Rebate Bonus', payoutTime: '1-3 hours', withdrawLimit: 'A$100,000', games: '4500++', rtp: '96.1%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'speedpay', 'amopay'], playLink: 'https://me99office.co/RFAUSSIESPIN99', foundedYear: 2022, ownerCompany: 'Me99 Interactive Pty Ltd', headquartersLocation: 'Sydney, Australia', monthlyPlayers: '240,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
-    rolex9: { name: 'Rolex9', logo: '/casinos/rolex9.png', rating: 4.88, ratingCount: 276, tag: 'High Roller Pick', bonusLabel: 'Welcome Bonus', bonus: 'Slot Welcome Bonus 50%', payoutTime: 'Instant - 1 hour', withdrawLimit: 'A$100,000', games: '4500++', rtp: '95.6%', os: 'Android, iOS', currencies: 'AUD', languages: 'English', payments: ['payid', 'osko', 'visa', 'mastercard'], playLink: 'https://rolex9.net/RFAUSSIESPINJ', foundedYear: 2019, ownerCompany: 'Rolex9 Digital Pty Ltd', headquartersLocation: 'Melbourne, Australia', monthlyPlayers: '180,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$29)' },
-    gucci9: { name: 'Gucci9', logo: '/casinos/gucci9.png', rating: 4.86, ratingCount: 399, tag: 'High Rebates', bonusLabel: 'Random Bonus', bonus: 'Every Deposit Random Bonus', payoutTime: '15 minutes - 3 hours', withdrawLimit: 'A$100,000', games: '4000+', rtp: '96.0%', os: 'Android, iOS, Windows', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'applepay', 'googlepay', 'speedpay'], playLink: 'https://guccii9au.net/RFAUSSIESPIN33', foundedYear: 2021, ownerCompany: 'Gucci9 Interactive Pty Ltd', headquartersLocation: 'Brisbane, Australia', monthlyPlayers: '205,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
-    mrbean9: { name: 'MrBean9', logo: '/casinos/mrbean9.png', rating: 4.84, ratingCount: 301, tag: 'Best for Pokies', bonusLabel: 'Daily Bonus', bonus: 'Daily First Deposit 30%', payoutTime: '1-6 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '4000+', rtp: '95.7%', os: 'Windows, Mac, Android', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'googlepay', 'applepay', 'osko'], playLink: 'https://mrbean9au.com/RFAUSSIESPIN9', foundedYear: 2020, ownerCompany: 'MrBean9 Gaming Pty Ltd', headquartersLocation: 'Adelaide, Australia', monthlyPlayers: '190,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
-    pkm9: { name: 'PKM9', logo: '/casinos/pkm9.png', rating: 4.82, ratingCount: 365, tag: 'Fastest Payouts', bonusLabel: 'Daily Bonus', bonus: 'Daily Slot Bonus 80%', payoutTime: '1-6 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '4500++', rtp: '96.2%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['payid', 'osko', 'visa', 'mastercard', 'btc', 'eth'], playLink: 'https://pokepokemon9.com/RFAUSSIESPIN98', foundedYear: 2022, ownerCompany: 'PKM9 Interactive Pty Ltd', headquartersLocation: 'Perth, Australia', monthlyPlayers: '175,000+', minDeposit: 'A$8', minWithdrawal: 'No Limit (min. A$28)' },
-    winnie777: { name: 'Winnie777', logo: '/casinos/winnie777.png', rating: 4.80, ratingCount: 243, tag: 'Bonuses Packed', bonusLabel: 'Free Credit', bonus: 'Free Credit 365 Days', payoutTime: '15 minutes - 6 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '5500+', rtp: '96.0%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'speedpay', 'googlepay'], playLink: 'https://winnie777.vip/RFAUSSIESPIN96', foundedYear: 2019, ownerCompany: 'Winnie777 Digital Pty Ltd', headquartersLocation: 'Sydney, Australia', monthlyPlayers: '165,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$18)' },
-    micky9: { name: 'Micky9', logo: '/casinos/micky9.png', rating: 4.78, ratingCount: 332, tag: 'Mobile Friendly', bonusLabel: 'Weekly Commission', bonus: 'Weekly Commission 5%', payoutTime: 'Instant', withdrawLimit: 'A$50,000 - A$100,000', games: '5500+', rtp: '95.8%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'amopay', 'speedpay'], playLink: 'https://micky13.asia/RFAUSSIESPIN97', foundedYear: 2021, ownerCompany: 'Micky9 Entertainment Pty Ltd', headquartersLocation: 'Adelaide, Australia', monthlyPlayers: '150,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$30)' },
-    bybid9: { name: 'Bybid9', logo: '/casinos/bybid9.png', rating: 4.76, ratingCount: 421, tag: 'Premium Jackpot', bonusLabel: 'Daily Bonus', bonus: 'Daily Easy Step Free 100', payoutTime: 'Instant - 2 hours', withdrawLimit: 'A$20,000 per month', games: '5500+', rtp: '95.9%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['payid', 'osko', 'visa', 'mastercard', 'ripple', 'usdt'], playLink: 'https://bybid9.net/RFAUSSIESPINAU', foundedYear: 2020, ownerCompany: 'Bybid9 Gaming Pty Ltd', headquartersLocation: 'Melbourne, Australia', monthlyPlayers: '185,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
-    queen13: { name: 'Queen13', logo: '/casinos/queen13.png', rating: 4.75, ratingCount: 149, tag: 'Best for Pokies', bonusLabel: 'Welcome Bonus', bonus: 'Slot Welcome Bonus 50%', payoutTime: '15 minutes - 1 day', withdrawLimit: 'A$50,000 - A$100,000', games: '4000+', rtp: '95.6%', os: 'Windows, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['visa', 'mastercard', 'payid', 'googlepay', 'applepay'], playLink: 'https://queen13au.com/RFAUSSIESPIN94', foundedYear: 2022, ownerCompany: 'Queen13 Interactive Pty Ltd', headquartersLocation: 'Brisbane, Australia', monthlyPlayers: '170,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
+    ace96au: { name: 'Ace96au', logo: '/casinos/ace96au.png', rating: 4.98, ratingCount: 512, tag: 'New Launch', bonusLabel: 'VIP Bonus', bonus: '100% VVIP Bonus', payoutTime: 'Instant - 12 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '4000+', rtp: '96.4%', os: 'Windows, Mac, iOS, Android', currencies: 'AUD', languages: 'English', payments: ['Visa', 'MasterCard', 'PayID', 'Osko', 'Google Pay', 'Apple Pay', 'USDT'], playLink: 'https://ace96au.net/RFAUSSIESPIN95', foundedYear: 2020, ownerCompany: 'ACE96AU Entertainment Pty Ltd', headquartersLocation: 'Sydney, Australia', monthlyPlayers: '210,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
+    mrboom9: { name: 'MrBoom9', logo: '/casinos/mrboom9.png', rating: 4.97, ratingCount: 229, tag: 'New Launch', bonusLabel: 'Extraordinary Bonus', bonus: 'Register Free Credit $99.99', payoutTime: 'Instant - 12 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '5000+', rtp: '97.1%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['Visa', 'MasterCard', 'PayID', 'Osko', 'Google Pay', 'Apple Pay', 'USDT'], playLink: 'https://mrboom9.com/RFAUSSIESPINNNN', foundedYear: 2025, ownerCompany: 'MrBoom9 Interactive Pty Ltd', headquartersLocation: 'Sydney, Australia', monthlyPlayers: '95,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$30)' },
+    ipay9: { name: 'iPay9', logo: '/casinos/ipay9.png', rating: 4.96, ratingCount: 188, tag: 'Top Rated', bonusLabel: 'Weekly Commission', bonus: 'Weekly Commission 7%', payoutTime: 'Instant - 12 hours', withdrawLimit: 'A$300,000', games: '4500++', rtp: '95.8%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['Visa', 'MasterCard', 'PayID', 'Osko', 'Google Pay', 'Apple Pay', 'USDT'], playLink: 'https://ipay9.co/RFAUSSIESPINAUD', foundedYear: 2021, ownerCompany: 'iPay9 Entertainment Pty Ltd', headquartersLocation: 'Melbourne, Australia', monthlyPlayers: '245,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
+    kingbet9: { name: 'Kingbet9', logo: '/casinos/kingbet9.png', rating: 4.94, ratingCount: 219, tag: "Editor's Choice", bonusLabel: 'Daily Bonus', bonus: 'Unlimited Random Bonus', payoutTime: 'Instant - 12 hours', withdrawLimit: 'A$200,000', games: '4000+', rtp: '95.9%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['Visa', 'MasterCard', 'PayID', 'Osko', 'Google Pay', 'Apple Pay', 'USDT'], playLink: 'https://k9aus.net/RFAUSSIESPIN', foundedYear: 2020, ownerCompany: 'Kingbet9 Gaming Pty Ltd', headquartersLocation: 'Brisbane, Australia', monthlyPlayers: '230,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
+    bigpay77: { name: 'Bigpay77', logo: '/casinos/bigpay77.png', rating: 4.92, ratingCount: 167, tag: 'Most Popular', bonusLabel: 'Welcome Bonus', bonus: 'Welcome Bonus 80%', payoutTime: 'Instant - 12 hours', withdrawLimit: 'A$200,000', games: '5500+', rtp: '95.7%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['Visa', 'MasterCard', 'PayID', 'Osko', 'Google Pay', 'Apple Pay', 'USDT'], playLink: 'https://bigpay77aus.com/RFAUSSIESPINN', foundedYear: 2019, ownerCompany: 'Bigpay77 Entertainment Pty Ltd', headquartersLocation: 'Perth, Australia', monthlyPlayers: '220,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
+    me99: { name: 'Me99', logo: '/casinos/me99.png', rating: 4.90, ratingCount: 468, tag: "Player's Favorite", bonusLabel: 'Daily Rebate', bonus: '5% Rebate Bonus', payoutTime: 'Instant - 12 hours', withdrawLimit: 'A$100,000', games: '4500++', rtp: '96.1%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['Visa', 'MasterCard', 'PayID', 'Osko', 'Google Pay', 'Apple Pay', 'USDT'], playLink: 'https://me99office.co/RFAUSSIESPIN99', foundedYear: 2022, ownerCompany: 'Me99 Interactive Pty Ltd', headquartersLocation: 'Sydney, Australia', monthlyPlayers: '240,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
+    rolex9: { name: 'Rolex9', logo: '/casinos/rolex9.png', rating: 4.88, ratingCount: 276, tag: 'High Roller Pick', bonusLabel: 'Welcome Bonus', bonus: 'Slot Welcome Bonus 50%', payoutTime: 'Instant - 12 hours', withdrawLimit: 'A$100,000', games: '4500++', rtp: '95.6%', os: 'Android, iOS', currencies: 'AUD', languages: 'English', payments: ['Visa', 'MasterCard', 'PayID', 'Osko', 'Google Pay', 'Apple Pay', 'USDT'], playLink: 'https://rolex9.net/RFAUSSIESPINJ', foundedYear: 2019, ownerCompany: 'Rolex9 Digital Pty Ltd', headquartersLocation: 'Melbourne, Australia', monthlyPlayers: '180,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$29)' },
+    gucci9: { name: 'Gucci9', logo: '/casinos/gucci9.png', rating: 4.86, ratingCount: 399, tag: 'High Rebates', bonusLabel: 'Random Bonus', bonus: 'Every Deposit Random Bonus', payoutTime: 'Instant - 12 hours', withdrawLimit: 'A$100,000', games: '4000+', rtp: '96.0%', os: 'Android, iOS, Windows', currencies: 'AUD', languages: 'English', payments: ['Visa', 'MasterCard', 'PayID', 'Osko', 'Google Pay', 'Apple Pay', 'USDT'], playLink: 'https://guccii9au.net/RFAUSSIESPIN33', foundedYear: 2021, ownerCompany: 'Gucci9 Interactive Pty Ltd', headquartersLocation: 'Brisbane, Australia', monthlyPlayers: '205,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
+    mrbean9: { name: 'MrBean9', logo: '/casinos/mrbean9.png', rating: 4.84, ratingCount: 301, tag: 'Best for Pokies', bonusLabel: 'Daily Bonus', bonus: 'Daily First Deposit 30%', payoutTime: 'Instant - 12 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '4000+', rtp: '95.7%', os: 'Windows, Mac, Android', currencies: 'AUD', languages: 'English', payments: ['Visa', 'MasterCard', 'PayID', 'Osko', 'Google Pay', 'Apple Pay', 'USDT'], playLink: 'https://mrbean9au.com/RFAUSSIESPIN9', foundedYear: 2020, ownerCompany: 'MrBean9 Gaming Pty Ltd', headquartersLocation: 'Adelaide, Australia', monthlyPlayers: '190,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$28)' },
+    pkm9: { name: 'PKM9', logo: '/casinos/pkm9.png', rating: 4.82, ratingCount: 365, tag: 'Fastest Payouts', bonusLabel: 'Daily Bonus', bonus: 'Daily Slot Bonus 80%', payoutTime: 'Instant - 12 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '4500++', rtp: '96.2%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['Visa', 'MasterCard', 'PayID', 'Osko', 'Google Pay', 'Apple Pay', 'USDT'], playLink: 'https://pokepokemon9.com/RFAUSSIESPIN98', foundedYear: 2022, ownerCompany: 'PKM9 Interactive Pty Ltd', headquartersLocation: 'Perth, Australia', monthlyPlayers: '175,000+', minDeposit: 'A$8', minWithdrawal: 'No Limit (min. A$28)' },
+    winnie777: { name: 'Winnie777', logo: '/casinos/winnie777.png', rating: 4.80, ratingCount: 243, tag: 'Bonuses Packed', bonusLabel: 'Free Credit', bonus: 'Free Credit 365 Days', payoutTime: 'Instant - 12 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '5500+', rtp: '96.0%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['Visa', 'MasterCard', 'PayID', 'Osko', 'Google Pay', 'Apple Pay', 'USDT'], playLink: 'https://winnie777.vip/RFAUSSIESPIN96', foundedYear: 2019, ownerCompany: 'Winnie777 Digital Pty Ltd', headquartersLocation: 'Sydney, Australia', monthlyPlayers: '165,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$18)' },
+    micky9: { name: 'Micky9', logo: '/casinos/micky9.png', rating: 4.78, ratingCount: 332, tag: 'Mobile Friendly', bonusLabel: 'Weekly Commission', bonus: 'Weekly Commission 5%', payoutTime: 'Instant - 12 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '5500+', rtp: '95.8%', os: 'Android, iOS, Web', currencies: 'AUD', languages: 'English', payments: ['Visa', 'MasterCard', 'PayID', 'Osko', 'Google Pay', 'Apple Pay', 'USDT'], playLink: 'https://micky13.asia/RFAUSSIESPIN97', foundedYear: 2021, ownerCompany: 'Micky9 Entertainment Pty Ltd', headquartersLocation: 'Adelaide, Australia', monthlyPlayers: '150,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$30)' },
+    bybid9: { name: 'Bybid9', logo: '/casinos/bybid9.png', rating: 4.76, ratingCount: 421, tag: 'Premium Jackpot', bonusLabel: 'Daily Bonus', bonus: 'Daily Easy Step Free 100', payoutTime: 'Instant - 12 hours', withdrawLimit: 'A$20,000 per month', games: '5500+', rtp: '95.9%', os: 'Windows, Mac, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['Visa', 'MasterCard', 'PayID', 'Osko', 'Google Pay', 'Apple Pay', 'USDT'], playLink: 'https://bybid9.net/RFAUSSIESPINAU', foundedYear: 2020, ownerCompany: 'Bybid9 Gaming Pty Ltd', headquartersLocation: 'Melbourne, Australia', monthlyPlayers: '185,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
+    queen13: { name: 'Queen13', logo: '/casinos/queen13.png', rating: 4.75, ratingCount: 149, tag: 'Best for Pokies', bonusLabel: 'Welcome Bonus', bonus: 'Slot Welcome Bonus 50%', payoutTime: 'Instant - 12 hours', withdrawLimit: 'A$50,000 - A$100,000', games: '4000+', rtp: '95.6%', os: 'Windows, Android, iOS', currencies: 'AUD', languages: 'English', payments: ['Visa', 'MasterCard', 'PayID', 'Osko', 'Google Pay', 'Apple Pay', 'USDT'], playLink: 'https://queen13au.com/RFAUSSIESPIN94', foundedYear: 2022, ownerCompany: 'Queen13 Interactive Pty Ltd', headquartersLocation: 'Brisbane, Australia', monthlyPlayers: '170,000+', minDeposit: 'A$10', minWithdrawal: 'No Limit (min. A$50)' },
   };
 
   const buildMinWithdrawalText = (withdrawLimit: string, minWithdrawal: string) => {
@@ -1155,9 +1173,15 @@ export default function CasinoReviewPage() {
       'Live support wait times can peak at busy hours',
       'Not all games contribute equally to wagering',
     ],
-    overview: `${source.name} has built a strong reputation among Australian players with a balanced mix of game variety, mobile performance, and reliable banking options. The platform is designed for easy navigation while still offering enough depth for players who want advanced features and regular promotions.`,
-    gamesSection: `${source.name} offers a broad game mix that includes pokies, live dealer titles, and classic casino games. Players can browse high-volatility and medium-volatility options, with regular additions to keep the catalogue fresh.`,
-    bonusesSection: `${source.name} runs an active promotions calendar that includes welcome offers, reload deals, and recurring campaign rewards. Always check terms and wagering details before claiming any offer.`,
+    overview: slugValue === 'mrboom9'
+      ? `${source.name} is a new launch online casino built for Australian players who want standout value and smooth performance. It focuses on extraordinary bonus campaigns, a modern wallet flow, and low-friction navigation from signup to first withdrawal.`
+      : `${source.name} has built a strong reputation among Australian players with a balanced mix of game variety, mobile performance, and reliable banking options. The platform is designed for easy navigation while still offering enough depth for players who want advanced features and regular promotions.`,
+    gamesSection: slugValue === 'mrboom9'
+      ? `${source.name} delivers no-lag gameplay across pokies, live dealer tables, and fast mini-games. The lobby is refreshed with new titles regularly, giving players a wide variety of games to play and win on both desktop and mobile.`
+      : `${source.name} offers a broad game mix that includes pokies, live dealer titles, and classic casino games. Players can browse high-volatility and medium-volatility options, with regular additions to keep the catalogue fresh.`,
+    bonusesSection: slugValue === 'mrboom9'
+      ? `${source.name} promotions include welcome and free-credit style offers, weekly rebate value, and progressive deposit rewards. Review the latest campaign terms, claim windows, and wagering rules before activation.`
+      : `${source.name} runs an active promotions calendar that includes welcome offers, reload deals, and recurring campaign rewards. Always check terms and wagering details before claiming any offer.`,
     bonusCards: slugValue === 'ipay9'
       ? [
           {
@@ -1181,6 +1205,29 @@ export default function CasinoReviewPage() {
             image: '/bonus-promos/ipay9/welcome-bonus-50.png',
           },
         ]
+      : slugValue === 'mrboom9'
+        ? [
+            {
+              title: 'Slot Welcome Bonus 50%',
+              description: 'Welcome campaign for newly registered members with a 50% slot bonus on qualifying deposits.',
+              image: '/bonus-promos/mrboom9/slot-welcome-bonus-50.jpg',
+            },
+            {
+              title: 'Register Free Credit 99.99',
+              description: 'Complete registration and account verification steps to unlock Free Credit 99.99 rewards.',
+              image: '/bonus-promos/mrboom9/free-credit-99.99.jpg',
+            },
+            {
+              title: 'Deposit Progressive Bonus 61-99',
+              description: 'Progressive deposit campaign with tiered rewards ranging from 61 to 99 for eligible deposits.',
+              image: '/bonus-promos/mrboom9/deposit-progressive-61-99.jpg',
+            },
+            {
+              title: 'Weekly Rebate Bonus 7%',
+              description: 'Weekly rebate at 7% for members meeting turnover conditions during the active promo cycle.',
+              image: '/bonus-promos/mrboom9/weekly-rebate-bonus-7.jpg',
+            },
+          ]
       : slugValue === 'kingbet9'
         ? [
             {

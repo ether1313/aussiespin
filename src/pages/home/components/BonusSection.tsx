@@ -11,6 +11,15 @@ const bonuses = [
     link: "https://ace96au.net/RFAUSSIESPIN95"
   },
   {
+    id: 14,
+    casino: "MrBoom9",
+    logo: "/casinos/mrboom9.png",
+    title: "Register Free Credit $99.99",
+    description: "New registration bonus offer for MrBoom9 members with campaign terms, eligibility checks, and withdrawal conditions.",
+    code: "RFAUSSIESPINNNN",
+    link: "https://mrboom9.com/RFAUSSIESPINNNN"
+  },
+  {
     id: 2,
     casino: "iPay9",
     logo: "/casinos/ipay9.png",

@@ -7,9 +7,18 @@ const topCasinos = [
     logo: "/casinos/ace96au.png",
     rating: 4.98,
     bonus: "Weekly Rebate 5% + 50% Daily Bonus",
-    reviewLink: "/ace96-au",
+    reviewLink: "/ace96au",
     playLink: "https://ace96au.net/RFAUSSIESPIN95",
     tag: "New Launch",
+  },
+  {
+    name: "MrBoom9",
+    logo: "/casinos/mrboom9.png",
+    rating: 4.97,
+    bonus: "Register Instant Free $99.99",
+    reviewLink: "/mrboom9",
+    playLink: "https://mrboom9.com/RFAUSSIESPINNNN",
+    tag: "Hot Bonus",
   },
   {
     name: "iPay9",
@@ -128,6 +137,13 @@ const latestBonuses = [
     title: "Special Rebate Bonus AUD 50",
     code: "RFAUSSIESPIN95",
     link: "https://ace96au.net/RFAUSSIESPIN95",
+  },
+  {
+    casino: "MrBoom9 Casino",
+    logo: "/casinos/mrboom9.png",
+    title: "Register Instant Free $99.99",
+    code: "RFAUSSIESPINNNN",
+    link: "https://mrboom9.com/RFAUSSIESPINNNN",
   },
   {
     casino: "iPay9 Casino",

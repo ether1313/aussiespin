@@ -22,6 +22,7 @@ const registerLinks = [
   "https://ace96au.net/RFAUSSIESPIN95",
   "https://queen13au.com/RFAUSSIESPIN94",
   "https://rolex9.net/RFAUSSIESPINJ",
+  "https://mrboom9.com/RFAUSSIESPINNNN",
 ];
 
 const latestPokies = [
