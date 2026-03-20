@@ -1,4 +1,4 @@
-import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useParams, Link, useNavigate, Navigate } from 'react-router-dom';
 import { useState } from 'react';
 
 interface BonusCard {
@@ -1556,14 +1556,7 @@ export default function CasinoReviewPage() {
   };
 
   if (!casino) {
-    return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-2xl font-bold text-gray-900 mb-4">Casino Not Found</h1>
-          <Link to="/" className="text-teal-600 hover:text-teal-700 font-medium">← Back to Home</Link>
-        </div>
-      </div>
-    );
+    return <Navigate to="/" replace />;
   }
 
   const renderStars = (rating: number) => {
